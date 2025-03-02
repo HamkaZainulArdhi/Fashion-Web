@@ -49,21 +49,21 @@ Fashion-Web/
 
 Kami menggunakan strategi branching berikut:
 
-- `master` → Branch utama untuk kode produksi yang stabil.
-- `develop` → Branch utama untuk pengembangan sebelum di-merge ke `master`.
-- `feature/[nama-fitur]` → Branch untuk fitur baru, bercabang dari `develop`.
-- `bugfix/[deskripsi-bug]` → Branch untuk perbaikan bug, bercabang dari `develop` atau `master`.
-- `hotfix/[deskripsi-hotfix]` → Branch untuk perbaikan mendesak pada `master`.
+- `main` → Branch utama untuk kode produksi yang stabil.
+- `devlop` → Branch utama untuk pengembangan sebelum di-merge ke `main`.
+- `feature/[nama-fitur]` → Branch untuk fitur baru, bercabang dari `devlop`.
+- `bugfix/[deskripsi-bug]` → Branch untuk perbaikan bug, bercabang dari `devlop` atau `main`.
+
 
 ### 📌 Cara Membuat Branch Fitur Baru
 ```bash
-git checkout develop
+git checkout devlop
 git checkout -b feature/nama-fitur
 ```
 
 ### 🛠️ Cara Membuat Branch Bugfix
 ```bash
-git checkout develop
+git checkout devlop
 git checkout -b bugfix/deskripsi-bug
 ```
 
