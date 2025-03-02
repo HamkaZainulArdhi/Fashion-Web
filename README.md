@@ -10,8 +10,7 @@
 
 2. **Install Dependencies**
    npm install
-
-  akan terintal node module ```
+   ```
 
 3. **Jalankan Server Local**
    npm run dev
