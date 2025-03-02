@@ -47,8 +47,7 @@ Fashion-Web/
 │── package.json    # Konfigurasi proyek & dependencies
 │── tailwind.config.js # Konfigurasi Tailwind CSS
 │── next.config.js  # Konfigurasi khusus Next.js
-│── .next/          # Folder hasil build (diabaikan oleh Git)
-│── node_modules/   # Dependensi proyek (diabaikan oleh Git)
+
 ```
 
 ---
@@ -67,7 +66,6 @@ Kami menggunakan strategi branching berikut:
 
 - `main` → Branch utama untuk kode produksi yang stabil.
 - `deploy` → Branch sebelum penggabungan ke `main`, digunakan untuk persiapan rilis.
-- `develop` → Branch utama untuk pengembangan sebelum di-merge ke `deploy`.
 - `feature/[nama-fitur]` → Branch untuk fitur baru, bercabang dari `develop`.
 - `bugfix/[deskripsi-bug]` → Branch untuk perbaikan bug, bercabang dari `develop` atau `main`.
 
