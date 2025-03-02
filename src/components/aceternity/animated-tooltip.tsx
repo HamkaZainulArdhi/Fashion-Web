@@ -8,7 +8,7 @@ const people = [
   { id: 3, name: "Jane Smith", designation: "Data Scientist", image: "/images/hero/baju.png", position: "top-40 right-10 sm:top-60 sm:right-20" },
   { id: 4, name: "Tyler Durden", designation: "Soap Developer", image: "/images/hero/baju.png", position: "bottom-20 right-20 sm:bottom-32 sm:right-60" },
 ];
-
+//cek cek aja
 export function AnimatedTooltipPreview() {
   return (
     <div className="relative w-full h-[400px] sm:h-[500px] flex items-center justify-center">
