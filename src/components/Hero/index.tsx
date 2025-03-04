@@ -22,10 +22,10 @@ function Hero() {
         <div className="container ">
           <div className="-mx-4 flex flex-wrap ">
             <div className="w-full md:-mt-24 -mt-32 md:max-h-screen  ">
-              <div className="bg-gradient-to-b from-blue-100 to-teal-100  rounded-b-3xl w-full h-[500px]">
+              <div className="relative bg-gradient-to-b from-blue-100 to-teal-100  rounded-b-3xl w-full h-[500px]">
                 <img src="/images/hero/baju.png" alt="" data-aos="flip-left" className="mx-auto pt-20 md:pt-0 " />
 
-                <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute inset-0 flex items-center justify-center" data-aos="zoom-in">
                   <AnimatedTooltipPreview />
                 </div>
               </div>

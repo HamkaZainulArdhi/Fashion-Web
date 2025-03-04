@@ -1,5 +1,6 @@
 import React from 'react';
 import { Video, Users, Star } from 'lucide-react';
+import Link from 'next/link';
 
 interface CourseCardProps {
   course: {
@@ -57,9 +58,11 @@ const CourseCard = ({ course }: CourseCardProps) => {
         <div className="flex-grow overflow-y-auto text-xs text-gray-600">
           <p>{course.description}</p>
         </div>
-        <button className="mt-2 bg-teal-500 text-white text-xs py-1 px-4 rounded-full hover:bg-teal-600 transition-colors">
-          View Course
-        </button>
+        <Link href="/about">
+          <button className="mt-2 bg-teal-500 text-white text-xs py-1 px-4 rounded-full hover:bg-teal-600 transition-colors">
+            View Course
+          </button>
+        </Link>
       </div>
       </div>
         

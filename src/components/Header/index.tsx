@@ -164,7 +164,7 @@ const Header = () => {
                 <div className="flex items-center justify-end">
                   <Link
                     href="/signin"
-                    className={`hidden px-4 text-sm font-medium text-white bg-primary rounded-sm hover:opacity-80 md:block mr-3 transition-all duration-300 ${
+                    className={`hidden  px-4 text-sm font-medium text-white bg-primary rounded-sm hover:opacity-80 md:block xl:mr-5  md:mr-14 transition-all duration-300 ${
                       sticky ? "py-1 text-xs" : "py-1.5"
                     }`}
                   >
