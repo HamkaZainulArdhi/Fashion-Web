@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <div className="bg-[#F0F2F9] overflow-x-hidden">
+    <div className="bg-whitebg overflow-x-hidden">
       <ScrollUp />
       <Hero />
       <Features />

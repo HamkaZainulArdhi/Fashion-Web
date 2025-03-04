@@ -16,7 +16,7 @@ interface Course {
 }
 
 const AboutSectionTwo = () => {
-  // Categories for the filter buttons
+ 
   const categories = [
     "Digital Marketing",
     "Data Science & Data Analysis",
@@ -24,12 +24,11 @@ const AboutSectionTwo = () => {
     "UI-UX Research and Design",
   ];
 
-  // Default selected category
+
   const [selectedCategory, setSelectedCategory] = useState("Digital Marketing");
 
-  // Course data - expanded with 5 courses per category
   const courses: Course[] = [
-    // Digital Marketing Courses
+  
     {
       id: 1,
       title: "Copywriting Introduction",
@@ -259,7 +258,7 @@ const AboutSectionTwo = () => {
 
   ];
 
-  // Filter courses based on selected category
+
   const filteredCourses = courses.filter(course => course.category === selectedCategory);
 
   return (

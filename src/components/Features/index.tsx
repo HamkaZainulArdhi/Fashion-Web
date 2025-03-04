@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { CheckCircle } from 'lucide-react';
 import { Covertext } from '../aceternity/cover';
 import { Glare } from '../aceternity/glare-card';
+import Decoration from '../UI/dekorasi bg/dekorasi-fitur';
 
 
 const SustainaStyleInteractive = () => {
@@ -55,6 +56,7 @@ const SustainaStyleInteractive = () => {
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 mb-10">
+           <Decoration />
         <button 
           className={`flex items-center justify-center px-6 py-2 rounded-md font-medium transition-colors ${activeTab === 'elearning' ? 'bg-primary text-white' : 'bg-white text-primary border border-primary'}`}
           onClick={() => setActiveTab('elearning')}
@@ -65,19 +67,19 @@ const SustainaStyleInteractive = () => {
           className={`flex items-center justify-center px-6 py-2 rounded-md font-medium transition-colors ${activeTab === 'marketplace' ? 'bg-primary text-white' : 'bg-white text-primary border border-primary'}`}
           onClick={() => setActiveTab('marketplace')}
         >
-          Marketplace
+          SustainShop
         </button>
         <button 
           className={`flex items-center justify-center px-6 py-2 rounded-md font-medium transition-colors ${activeTab === 'tukarPakaian' ? 'bg-primary text-white' : 'bg-white text-primary border border-primary'}`}
           onClick={() => setActiveTab('tukarPakaian')}
         >
-          Tukar Pakaian
+          SustainSwap
         </button>
         <button 
           className={`flex items-center justify-center px-6 py-2 rounded-md font-medium transition-colors ${activeTab === 'challengeReward' ? 'bg-primary text-white' : 'bg-white text-primary border border-primary'}`}
           onClick={() => setActiveTab('challengeReward')}
         >
-          Challenge & Reward
+          SustainCare
         </button>
       </div>
 
