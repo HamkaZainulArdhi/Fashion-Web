@@ -1,21 +1,21 @@
 import React from "react";
 
-type Decoration = {
+type DecorationProps = {
   position?: string;
   size?: string;
   opacity?: string;
   zIndex?: string; // Tambahkan zIndex agar tidak menimpa konten lain
 };
 
-const Decoration: React.FC<Decoration> = ({
-  position = "top-20 right-0",
+const Decoration: React.FC<DecorationProps> = ({
+  position = "top-10 left-10",
   size = "w-32 h-32",
-  opacity = "opacity-90",
+  opacity = "opacity-50",
   zIndex = "z-0",
 }) => {
   return (
     <img
-      src="/images/detail/dekorasi.png"
+      src="/images/compo.png"
       alt="Decoration"
       className={`absolute ${position} ${size} ${opacity} ${zIndex} pointer-events-none`}
     />

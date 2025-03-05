@@ -1,59 +1,74 @@
 "use client"
-import React, { useState } from 'react';
+import React from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/UI/accordion"
-
+} from "@/components/UI/accordion";
+import { HeadsetIcon } from "lucide-react";
 
 const FAQAccordion: React.FC = () => {
   return (
-    <div className="max-w-6xl mx-auto p-6" >
-      <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold mb-2">Pertanyaan yang Sering Diajukan</h2>
-        <p className="text-gray-600 mb-4">
-          Dapatkan jawaban yang Anda butuhkan untuk menavigasi platform kami dengan percaya diri
-        </p>
-      </div>
-        
-        <div className="md:w-3/5 my-auto">
+    <div id="faq" className=" max-w-6xl mx-auto p-6">
+      <h2 className="text-3xl font-bold text-center mb-6">
+        Punya pertanyaan seputar bootcamp
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+        <div>
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger>Apakah pembelajaran dilakukan secara online?</AccordionTrigger>
+              <AccordionTrigger>
+                Apakah pemula dapat mengikuti program ini?
+              </AccordionTrigger>
               <AccordionContent>
-                Ya, semua pembelajaran dilakukan secara online melalui platform kami. Anda dapat mengakses materi dari mana saja dan kapan saja.
+                Ya, program ini dirancang untuk semua tingkat keahlian, termasuk pemula.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger>Bagaimana proses pembelajarannya?</AccordionTrigger>
+              <AccordionTrigger>
+                Bagaimana proses pembelajarannya?
+              </AccordionTrigger>
               <AccordionContent>
-                Proses pembelajaran terdiri dari video pembelajaran, materi bacaan, kuis interaktif, dan proyek praktik. Setiap modul dirancang untuk memberikan pemahaman komprehensif.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-3">
-              <AccordionTrigger>Apakah materi pembelajaran dapat diunduh?</AccordionTrigger>
-              <AccordionContent>
-                Ya, sebagian besar materi pembelajaran dapat diunduh untuk dipelajari secara offline. Video dan dokumen PDF tersedia untuk diunduh melalui platform kami.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-4">
-              <AccordionTrigger>Bagaimana jika saya mengalami kesulitan selama proses pembelajaran?</AccordionTrigger>
-              <AccordionContent>
-                Kami menyediakan forum diskusi dan layanan bantuan yang dapat diakses 24/7. Anda juga dapat menghubungi mentor untuk mendapatkan bantuan lebih lanjut.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-5">
-              <AccordionTrigger>Apakah ada sesi tatap muka online dengan mentor?</AccordionTrigger>
-              <AccordionContent>
-                Ya, kami menyelenggarakan sesi tatap muka online mingguan dengan mentor. Anda dapat mengajukan pertanyaan dan mendiskusikan materi secara langsung.
+                Pembelajaran terdiri dari materi online, sesi mentoring, dan tugas proyek.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
+        <div>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value="item-3">
+              <AccordionTrigger>
+                Apakah pembelajaran dilakukan secara online?
+              </AccordionTrigger>
+              <AccordionContent>
+                Ya, semua pembelajaran dilakukan secara online melalui platform kami.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4">
+              <AccordionTrigger>
+                Apakah materi dapat diakses selamanya?
+              </AccordionTrigger>
+              <AccordionContent>
+                Ya, materi dapat diakses kapan saja setelah program selesai.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </div>
+      <div className=" p-6 rounded-lg text-center bg-blue-100">
+        <h3 className="text-xl font-semibold text-primary mb-2">
+          Konsultasi Program Gratis
+        </h3>
+        <p className="text-gray-700 mb-4">
+          Apabila kamu memiliki pertanyaan dan ingin berkonsultasi langsung dengan kami jangan ragu untuk menghubungi kami.
+        </p>
+        <button className="bg-primary text-white px-6 py-3 gap-2 rounded-lg flex items-center justify-center mx-auto">
+          <HeadsetIcon /> Konsultasi Sekarang
+        </button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default FAQAccordion;

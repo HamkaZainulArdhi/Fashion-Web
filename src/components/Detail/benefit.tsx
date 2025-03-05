@@ -13,23 +13,19 @@ const Benefits: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <BenefitCard 
           icon={<svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
-          title="Akses Selamanya Online Mentoring Live Session"
+          title="Sertifikat Digital sebagai Bukti Keahlian dalam Sustainable Fashion"
         />
         <BenefitCard 
           icon={<svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
-          title="Video Pembelajaran Yang Diupload Setelah Kelas Online"
+          title="Proyek Praktis untuk Membangun Portofolio Fashion Berkelanjutan"
         />
         <BenefitCard 
           icon={<svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
-          title="Free Project Online Membantu Portfolio Kamu"
+          title="Live Session: Teknik Desain Berkelanjutan & Produksi Zero Waste"
         />
         <BenefitCard 
           icon={<svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
-          title="Live Technical Coding Session Langkah Pembuatan"
-        />
-        <BenefitCard 
-          icon={<svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
-          title="Sertifikat Digital Setelah Selesai Bootcamp"
+          title="Video Pembelajaran tentang Material Ramah Lingkungan & Produksi Etis"
         />
       </div>
     </div>

@@ -31,7 +31,6 @@ export default function SilabusPage() {
             <Mentors />
             <CourseModules />
             <PriceSection />
-            <IndonesiaMap />
             <FAQAccordion />
           </div>
         </div>
