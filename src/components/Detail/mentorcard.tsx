@@ -10,7 +10,7 @@ interface MentorCardProps {
 
 const MentorCard: React.FC<MentorCardProps> = ({ name, image, position, description }) => {
   return (
-    <div className="flex gap-4 mb-6 border-2 rounded-xl p-4">
+    <div className="flex gap-4 mb-6 border-2 rounded-xl p-4 bg-blue-50">
     <div className="relative w-36 h-44 flex-shrink-0">
   {/* Gambar Mentor */}
   <img 

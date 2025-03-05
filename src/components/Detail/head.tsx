@@ -1,4 +1,6 @@
+"use client";
 import React from 'react';
+import Folder from '../Folder/Folder';
 
 const Head: React.FC = () => {
   return (
@@ -18,46 +20,12 @@ const Head: React.FC = () => {
           </button>
         </div>
       </div>
-      <div className="w-full md:w-1/2 bg-gray-200 rounded-lg relative">
+      <div className="w-full md:w-1/2 rounded-lg relative">
         <div className="aspect-w-16 aspect-h-9 min-h-[300px] rounded-lg relative">
-          {/* Image placeholder - you'll add your own */}
-          <div className="absolute top-0 right-0 bg-white p-2 rounded-full m-4">
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              className="h-6 w-6" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor"
-            >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d="M5 12h14M12 5l7 7-7 7" 
-              />
-            </svg>
-          </div>
           <div className="absolute top-0 left-0 w-full px-6 py-4">
-            <div className="flex items-center space-x-2">
-              <div className="text-teal-600">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  className="h-6 w-6" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor"
-                >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M13 10V3L4 14h7v7l9-11h-7z" 
-                  />
-                </svg>
-              </div>
-              <span className="text-sm font-medium">SustainStyle</span>
+             <div className="flex items-center justify-center mt-36">
+              <Folder size={3} color="#00d8ff" className="custom-folder z-40" />
             </div>
-            <h2 className="text-xl font-bold mt-2">EcoFashion Academy – Desain Gaya, Lestarikan Bumi</h2>
           </div>
         </div>
       </div>

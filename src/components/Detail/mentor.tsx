@@ -12,24 +12,24 @@ const Mentors: React.FC = () => {
   return (
     <div id="mentor" className="py-8">
       <h2 className="text-2xl font-bold mb-6">Mentor expert yang akan membimbing kamu</h2>
-      <div>
+     <div>
         <MentorCard 
           name="Hamka Zainul Ardhi"
-          position="Frontend Developer & CEO at WPU dengan 8+ tahun menjalani dunia Front-End Developer, dan sejak 2015, telah membagikan pengetahuan melalui WPU Channel."
-          description="Spesialisasi: JavaScript, React"
+          position="Sustainable Fashion Strategist & CEO at EcoWear dengan 8+ tahun pengalaman dalam pengembangan mode ramah lingkungan dan berbasis keberlanjutan."
+          description="Spesialisasi: Material Berkelanjutan, Circular Fashion"
           image='/images/detail/mentor-1.png'
         />
         <MentorCard 
-          name="Hamka Zainul Ardhi"
-          position="Frontend Developer dengan 8+ tahun menjalani dunia UI Designer dengan pengalaman terkait pengembangan produk, pendekatan dan Soft-Skill yang dibutuhkan."
-          description="Spesialisasi: React Native"
-          image='/images/detail/mentor-1.png'
+          name="Avriel Nur Adi Pratama"
+          position="Fashion Designer dengan 8+ tahun pengalaman dalam desain pakaian berkelanjutan, menggunakan bahan daur ulang dan teknik produksi yang etis."
+          description="Spesialisasi: Eco-Friendly Textile, Ethical Production"
+          image='/images/detail/mentor-2.png'
         />
         <MentorCard 
-          name="Hamka Zainul Ardhi"
-          position="Web Developer & CTO dengan 6+ tahun menjalani Progressive Developer, membuat custom integration dengan Eloqua sebagai Platinum Partner Eloqua."
-          description="Spesialisasi: JavaScript, Node.js"
-          image='/images/detail/mentor-1.png'
+          name="Elwas Raharjo"  
+          position="Sustainable Business Consultant dengan 6+ tahun pengalaman dalam pengembangan bisnis mode berkelanjutan dan strategi pemasaran berbasis etika."
+          description="Spesialisasi: Green Marketing, Zero Waste Fashion"
+          image='/images/detail/mentor-3.png'
         />
       </div>
     </div>
