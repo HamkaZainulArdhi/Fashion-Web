@@ -16,13 +16,13 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Bootcamp",
-    path: "/blog",
+    path: "/about",
     newTab: false,
   },
   {
     id: 3,
     title: "SustainShop",
-    path: "/detail",
+    path: "/tukar",
     newTab: false,
   },
   {
@@ -33,7 +33,7 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "SustainSwap",
-        path: "/about",
+        path: "/tukar",
         newTab: false,
       },
       {

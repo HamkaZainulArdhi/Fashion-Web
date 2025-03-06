@@ -20,7 +20,7 @@ const placeholders = [
   };
   return (
     <div className="h-[13rem] flex flex-col justify-center items-center px-4 -mt-20 ">
-      <h2 className="mb-7  text-xl md:text-4xl font-semibold text-black">
+      <h2 className="mb-7 text-center text-xl md:text-4xl font-semibold text-black">
         Temukan Pakaian yang Cocok untukmu
       </h2>
       <PlaceholdersAndVanishInput

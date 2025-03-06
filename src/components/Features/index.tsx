@@ -16,7 +16,7 @@ const SustainaStyleInteractive = () => {
       description: "Permudah administrasi karyawan untuk melakukan clock-in dan clock out, hingga berbagai pengajuan seperti:",
       features: ["Lembur", "Cuti", "Split", "Reimburse"],
       buttonText: "Kunjungi",
-      imageSrc: "images/hero/web.png"
+      imageSrc: "images/hero/beranda.png"
     },
     marketplace: {
       title: <><span className="text-teal-500">Marketplace</span> Produk<br />Sustainable Fashion.</>,
@@ -30,7 +30,7 @@ const SustainaStyleInteractive = () => {
       description: "Tukarkan pakaian bekas yang masih layak pakai untuk mengurangi limbah tekstil:",
       features: ["Tukar Tambah", "Donasi", "Daur Ulang", "Kredit Poin"],
       buttonText: "Mulai Tukar",
-      imageSrc: "images/hero/image.png"
+      imageSrc: "images/hero/sustainswap.png"
     },
     challengeReward: {
       title: <><span className="text-teal-500">Challenge & Reward</span><br />Program Sustainability.</>,

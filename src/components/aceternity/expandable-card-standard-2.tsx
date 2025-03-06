@@ -4,7 +4,7 @@ import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
-export default function ExpandableCard() {
+export default function ExpandableCard2() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
     null
   );
@@ -207,81 +207,79 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Bali, Indonesia",
-    title: "Linen Breeze Tunic",
-    src: "/images/tukar/tukar-1.jpg",
-    ctaText: "Tukar",
-    ctaLink: "#",
-    content: () => {
-      return (
-        <p>
-          Tunik berbahan linen organik yang ringan dan nyaman, cocok untuk
-          cuaca tropis. Diproduksi dengan teknik ramah lingkungan untuk
-          mengurangi limbah tekstil.
-        </p>
-      );
-    },
-  },
-  {
-    description: "Milan, Italia",
-    title: "Upcycled Wool Sweater",
-    src: "/images/tukar/tukar-2.jpg",
-    ctaText: "Tukar",
-    ctaLink: "#",
-    content: () => {
-      return (
-        <p>
-          Sweater hangat yang dibuat dari wol daur ulang, menghadirkan gaya
-          klasik dengan sentuhan keberlanjutan. Dibuat dengan metode tanpa
-          pewarna sintetis untuk menjaga keseimbangan alam.
-        </p>
-      );
-    },
-  },
-  {
-    description: "Kyoto, Jepang",
-    title: "Organic Cotton Kimono",
-    src: "/images/tukar/tukar-3.jpg",
-    ctaText: "Tukar",
-    ctaLink: "#",
-    content: () => {
-      return (
-        <p>
-          Kimono modern berbahan katun organik, menggabungkan desain tradisional
-          dengan pendekatan produksi berkelanjutan. Nyaman dipakai dan ramah
-          terhadap kulit sensitif.
-        </p>
-      );
-    },
-  },
-  {
-    description: "Berlin, Jerman",
-    title: "Hemp Eco Blazer",
-    src: "/images/tukar/tukar-4.jpg",
-    ctaText: "Tukar",
-    ctaLink: "#",
-    content: () => {
-      return (
-        <p>
-          Blazer elegan berbahan serat rami yang kuat dan tahan lama, tanpa
-          penggunaan bahan kimia berbahaya. Cocok untuk tampilan profesional
-          yang tetap peduli lingkungan.
-        </p>
-      );
-    },
-  },
-  {
-    description: "New York, Amerika Serikat",
-    title: "Tencel Flow Dress",
+    description: "Jakarta, Indonesia",
+    title: "Bamboo Eco Dress",
     src: "/images/tukar/tukar-5.jpg",
     ctaText: "Tukar",
     ctaLink: "#",
     content: () => {
       return (
         <p>
-          Gaun berbahan Tencel yang dikenal karena kelembutannya serta proses
-          produksinya yang minim limbah. Pilihan sempurna untuk gaya modern yang
-          ramah lingkungan.
+          Tukar pakaian dengan mudah dan berikan pakaian yang tak terpakai
+          untuk mendapatkan item baru. Bergabunglah dalam gerakan mengurangi
+          sampah tekstil dengan memilih tukar, bukan membuang!
+        </p>
+      );
+    },
+  },
+  {
+    description: "Tokyo, Jepang",
+    title: "Organic Linen Shirt",
+    src: "/images/tukar/tukar-1.jpg",
+    ctaText: "Tukar",
+    ctaLink: "#",
+    content: () => {
+      return (
+        <p>
+          Jadikan pakaian lama bernilai kembali! Tukar pakaian dengan orang lain
+          dan bantu mengurangi limbah tekstil dengan cara yang lebih
+          berkelanjutan.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Paris, Prancis",
+    title: "Hemp Summer Blazer",
+    src: "/images/tukar/tukar-4.jpg",
+    ctaText: "Tukar",
+    ctaLink: "#",
+    content: () => {
+      return (
+        <p>
+          Satu pakaian keluar, satu pakaian masuk! Tukar pakaianmu dan bantu
+          menciptakan dunia yang lebih ramah lingkungan dengan mengurangi
+          pembuangan tekstil.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Bandung, Indonesia",
+    title: "Recycled Cotton Sweater",
+    src: "/images/tukar/tukar-2.jpg",
+    ctaText: "Tukar",
+    ctaLink: "#",
+    content: () => {
+      return (
+        <p>
+          Pakaian yang tidak kamu butuhkan mungkin berharga bagi orang lain.
+          Tukar pakaian dan ciptakan siklus mode yang lebih berkelanjutan!
+        </p>
+      );
+    },
+  },
+  {
+    description: "New York, Amerika Serikat",
+    title: "Tencel Flowy Skirt",
+    src: "/images/tukar/tukar-3.jpg",
+    ctaText: "Tukar",
+    ctaLink: "#",
+    content: () => {
+      return (
+        <p>
+          Ubah pakaian lama menjadi peluang baru! Tukar pakaian yang sudah tidak
+          terpakai dan dukung gerakan pengurangan limbah tekstil.
         </p>
       );
     },
