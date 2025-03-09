@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import DraggableItem from "@/components/drag/drag";
+import { TypewriterEffectSmoothDemo } from "../aceternity/typewriter-effect";
+
 
 const outfits = [
   { src: "/images/video/rok-1.png", size: 105, x: 120, y: 120 },  // Rok pink
@@ -39,7 +41,9 @@ export default function OutfitBuilder() {
   };
 
   return (
-    <div className="relative h-screen w-screen bg-blue-500 overflow-hidden" onMouseMove={handleMouseMove}>
+    <>
+    <div className="relative h-screen md:m-10 md:mt-20 bg-gradient-to-b from-blue-100 to-teal-100  rounded-xl overflow-x-hidden" onMouseMove={handleMouseMove}>
+      <TypewriterEffectSmoothDemo />
       <img
         src="/images/video/model.png"
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40"
@@ -52,5 +56,6 @@ export default function OutfitBuilder() {
         <DraggableItem key={index} image={item.src} size={item.size} startX={item.x} startY={item.y} />
       ))}
     </div>
+    </>
   );
 }

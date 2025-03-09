@@ -119,6 +119,7 @@ const BlogSidebarPage = () => {
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                   Banyak desainer kini mulai berinovasi dengan mendaur ulang pakaian bekas dan menciptakan koleksi yang lebih ramah lingkungan. Selain itu, pemilihan bahan organik dan pewarna alami juga menjadi langkah penting dalam mendukung fashion berkelanjutan.
+
                   </p>
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                   Mengapa Sustainable Fashion Penting?

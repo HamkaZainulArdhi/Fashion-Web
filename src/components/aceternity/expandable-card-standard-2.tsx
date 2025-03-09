@@ -28,7 +28,7 @@ export default function ExpandableCard2() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [active]);
 
-  useOutsideClick(ref, () => setActive(null));
+  useOutsideClick(ref as React.RefObject<HTMLDivElement>, () => setActive(null));
 
   return (
     <>
@@ -101,8 +101,7 @@ export default function ExpandableCard2() {
 
                   <motion.a
                     layoutId={`button-${active.title}-${id}`}
-                    href={active.ctaLink}
-                    target="_blank"
+                    href="/checkout"
                     className="px-4 py-3 text-sm rounded-full font-bold bg-primary text-white"
                   >
                     {active.ctaText}
@@ -132,7 +131,7 @@ export default function ExpandableCard2() {
             layoutId={`card-${card.title}-${id}`}
             key={`card-${card.title}-${id}`}
             onClick={() => setActive(card)}
-            className="p-4 flex flex-col md:flex-row justify-between items-center hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-xl cursor-pointer"
+            className="p-4 flex flex-col md:flex-row justify-between items-center hover:bg-blue-50 rounded-xl cursor-pointer"
           >
             <div className="flex gap-4 flex-col md:flex-row ">
               <motion.div layoutId={`image-${card.title}-${id}`}>
@@ -211,7 +210,6 @@ const cards = [
     title: "Bamboo Eco Dress",
     src: "/images/tukar/tukar-5.jpg",
     ctaText: "Tukar",
-    ctaLink: "#",
     content: () => {
       return (
         <p>
@@ -227,7 +225,6 @@ const cards = [
     title: "Organic Linen Shirt",
     src: "/images/tukar/tukar-1.jpg",
     ctaText: "Tukar",
-    ctaLink: "#",
     content: () => {
       return (
         <p>
@@ -243,7 +240,6 @@ const cards = [
     title: "Hemp Summer Blazer",
     src: "/images/tukar/tukar-4.jpg",
     ctaText: "Tukar",
-    ctaLink: "#",
     content: () => {
       return (
         <p>
@@ -259,7 +255,6 @@ const cards = [
     title: "Recycled Cotton Sweater",
     src: "/images/tukar/tukar-2.jpg",
     ctaText: "Tukar",
-    ctaLink: "#",
     content: () => {
       return (
         <p>
@@ -274,7 +269,6 @@ const cards = [
     title: "Tencel Flowy Skirt",
     src: "/images/tukar/tukar-3.jpg",
     ctaText: "Tukar",
-    ctaLink: "#",
     content: () => {
       return (
         <p>

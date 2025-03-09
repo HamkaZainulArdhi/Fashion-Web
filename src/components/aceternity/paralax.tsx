@@ -7,66 +7,66 @@ export function Parallax() {
 }
 export const products = [
   {
-    title: "Moonbeam",
+    title: "Testi - 1",
     link: "https://gomoonbeam.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "/images/testimonial/testi-1.png",
   },
   {
-    title: "Cursor",
+    title: "Testi - 2",
     link: "https://cursor.so",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/images/testimonial/testi-2.png",
   },
   {
-    title: "Rogue",
+    title: "Testi - 3",
     link: "https://userogue.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "/images/testimonial/testi-3.png",
   },
 
   {
-    title: "Editorially",
+    title: "Testi - 4",
     link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/images/testimonial/testi-4.png",
   },
   {
-    title: "Editrix AI",
+    title: "Testi - 5",
     link: "https://editrix.ai",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      "/images/testimonial/testi-5.png",
   },
   {
-    title: "Pixel Perfect",
+    title: "Testi - 6",
     link: "https://app.pixelperfect.quest",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "/images/testimonial/testi-6.png",
   },
 
   {
-    title: "Algochurn",
+    title: "Testi - 7",
     link: "https://algochurn.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "/images/testimonial/testi-7.png",
   },
   {
-    title: "Aceternity UI",
+    title: "Testi - 8",
     link: "https://ui.aceternity.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "/images/testimonial/testi-8.png",
   },
   {
-    title: "Tailwind Master Kit",
+    title: "Testi - 9",
     link: "https://tailwindmasterkit.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "/images/testimonial/testi-9.png",
   },
   {
-    title: "SmartBridge",
+    title: "Testi - 10",
     link: "https://smartbridgetech.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+      "/images/testimonial/testi-10.png",
   },
 
 ];
