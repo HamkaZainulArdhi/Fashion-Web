@@ -28,14 +28,14 @@ const CartItemComponent: React.FC<CartItemProps> = ({ item, incrementQuantity, d
     <div className="border-t py-4">
       <div className="grid grid-cols-4 gap-4 items-center">
         <div className="col-span-2 flex items-center gap-4">
-          <div className="w-24 h-32 overflow-hidden rounded-md">
+          <div className="  md:w-24 md:h-32 overflow-hidden rounded-md">
             <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
           </div>
           <div>
-            <div className="text-sm text-gray-500">{item.category}</div>
-            <h3 className="font-medium">{item.name}</h3>
-            <div className="text-sm mt-1">
-              <div><span className="text-gray-500">Color:</span> {item.color}</div>
+            <div className=" text-sm text-gray-500">{item.category}</div>
+            <h3 className=" font-medium">{item.name}</h3>
+            <div className=" text-sm mt-1">
+              <div><span className="text-gray-500">Warna:</span> {item.color}</div>
               <div><span className="text-gray-500">Size:</span> {item.size}</div>
             </div>
           </div>
@@ -58,7 +58,7 @@ const CartItemComponent: React.FC<CartItemProps> = ({ item, incrementQuantity, d
             </button>
           </div>
         </div>
-        <div className="text-center text-lg font-medium text-yellow-500">
+        <div className="text-center text-xs md:text-lg font-medium  text-yellow-500">
           Total Rp. {(item.price * item.quantity).toFixed(2)}
         </div>
       </div>
@@ -74,9 +74,9 @@ const ShoppingCart: React.FC = () => {
       price: 20.50,
       quantity: 2,
       image: "/images/ecommerce/product-10.jpg",
-      color: "Blue",
+      color: "Hijau",
       size: "42",
-      category: "WOMEN"
+      category: "Tas"
     },
     {
       id: 2,
@@ -84,9 +84,9 @@ const ShoppingCart: React.FC = () => {
       price: 30.50,
       quantity: 1,
       image: "/images/ecommerce/product-1.jpg",
-      color: "Blue",
+      color: "Biru",
       size: "42",
-      category: "WOMEN"
+      category: "Kebaya"
     }
   ]);
   
@@ -108,8 +108,8 @@ const ShoppingCart: React.FC = () => {
   return (
     <div className=" py-24">
       <div className="max-w-6xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-1">Shopping Bag</h1>
-        <p className="text-gray-600 mb-8">{cartItems.reduce((total, item) => total + item.quantity, 0)} items in your bag.</p>
+        <h1 className="text-3xl font-bold mb-1">Checkout Belanjamu</h1>
+        <p className="text-gray-600 mb-8">{cartItems.reduce((total, item) => total + item.quantity, 0)} items di Keranjangmu.</p>
         
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Left side - Cart items */}

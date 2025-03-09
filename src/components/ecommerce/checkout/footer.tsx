@@ -10,8 +10,8 @@ export const Footer: React.FC = () => {
           <Truck className="w-6 h-6 text-pink-600" />
         </div>
         <div>
-          <h3 className="font-bold">Free Shipping</h3>
-          <p className="text-sm text-gray-500">When you spend $50+</p>
+          <h3 className="font-bold">Free Ongkir</h3>
+          <p className="text-sm text-gray-500">Untuk Pembelian pertama</p>
         </div>
       </div>
 
@@ -21,8 +21,8 @@ export const Footer: React.FC = () => {
           <Phone className="w-6 h-6 text-yellow-600" />
         </div>
         <div>
-          <h3 className="font-bold">Call Us Anytime</h3>
-          <p className="text-sm text-gray-500">+34 555 5555</p>
+          <h3 className="font-bold">Customer Service</h3>
+          <p className="text-sm text-gray-500">789-230</p>
         </div>
       </div>
 
@@ -32,8 +32,8 @@ export const Footer: React.FC = () => {
           <MessageCircle className="w-6 h-6 text-green-600" />
         </div>
         <div>
-          <h3 className="font-bold">Chat With Us</h3>
-          <p className="text-sm text-gray-500">We offer 24-hour chat support</p>
+          <h3 className="font-bold">Butuh Sesuatu?</h3>
+          <p className="text-sm text-gray-500">Hubungi Kami via WhatApps</p>
         </div>
       </div>
 
@@ -43,8 +43,8 @@ export const Footer: React.FC = () => {
           <Gift className="w-6 h-6 text-yellow-600" />
         </div>
         <div>
-          <h3 className="font-bold">Gift Cards</h3>
-          <p className="text-sm text-gray-500">For your loved one, in any amount</p>
+          <h3 className="font-bold">CashBack 60%</h3>
+          <p className="text-sm text-gray-500">Setiap Pembelian 3 Produk</p>
         </div>
       </div>
     </div>
