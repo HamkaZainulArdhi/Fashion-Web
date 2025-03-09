@@ -27,8 +27,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Dirancang untuk Desainer Fashion Berkelanjutan & Brand Etis."
-                paragraph="Platform ini mendukung desainer dan brand fashion berkelanjutan dalam menciptakan perubahan positif melalui edukasi interaktif dan akses marketplace ramah lingkungan."
+                title="Crafted for Startup, SaaS and Business Sites."
+                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
                 mb="44px"
               />
 
@@ -38,15 +38,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="E-Learning Fashion" />
-                    <List text="Akses Seumur Hidup" />
-                    <List text="SustainShop Marketplace" />
+                    <List text="Premium quality" />
+                    <List text="Tailwind CSS" />
+                    <List text="Use for lifetime" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="SustainSwap" />
-                    <List text="Dokumentasi Lengkap" />
-                    <List text="Mendukung Kreator Lokal" />
+                    <List text="Next.js" />
+                    <List text="Rich documentation" />
+                    <List text="Developer friendly" />
                   </div>
                 </div>
               </div>

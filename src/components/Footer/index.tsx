@@ -10,29 +10,30 @@ const Footer: React.FC = () => {
       <footer className="bg-[#262626] text-white py-8 px-6 rounded-2xl max-w-6xl w-full shadow-lg">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {/* Logo and Description */}
             <div className="space-y-4">
               <div className="flex items-center">
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex items-center gap-2">
                   <Image 
-                    src="/images/logo/logo.png" 
+                    src="/logo.png" 
                     alt="WPU Course Logo" 
-                    width={100} 
-                    height={100} 
+                    width={40} 
+                    height={40} 
                   />
-                  <span className="text-white text-lg font-bold">SustainStyle</span>
+                  <span className="text-white text-lg">Course</span>
                 </div>
               </div>
               <p className="text-sm text-gray-300">
-                SustainStyle adalah platform pembelajaran untuk membantu kamu menjadi fashion Designer yang menyulap bahan ramah lingkungan manjadi fashion berkelas.
+                WPU Course adalah platform pembelajaran untuk membantu kamu menjadi digital talent terbaik.
               </p>
               <div className="flex flex-col text-sm text-gray-300 mt-4">
                 <div className="flex items-center gap-2">
                   <MapPin size={16} />
-                  <span>Yogyakarta, Indonesia</span>
+                  <span>Bandung, Indonesia</span>
                 </div>
                 <div className="flex items-center gap-2 mt-1">
                   <Phone size={16} />
-                  <span>+62 852-5055-2000</span>
+                  <span>+62 851-5000-2005</span>
                 </div>
               </div>
             </div>
@@ -107,7 +108,7 @@ const Footer: React.FC = () => {
           {/* Bottom Bar */}
           <div className="flex flex-col md:flex-row justify-between items-center pt-8 mt-8 border-t border-gray-700">
             <p className="text-sm text-gray-400">
-              © 2025 SustainStyle. All Rights Reserved.
+              © 2025 WPU Course. All Rights Reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Link href="https://instagram.com" className="text-gray-400 hover:text-white">
