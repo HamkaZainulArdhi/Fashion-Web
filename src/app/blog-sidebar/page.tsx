@@ -37,7 +37,7 @@ const BlogSidebarPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span> Hamka Love Avriel</span>
+                          By <span> Hamka Zainul Ardhi</span>
                         </span>
                       </div>
                     </div>
@@ -347,7 +347,7 @@ const BlogSidebarPage = () => {
                 <ul className="p-8">
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
-                      title="Best way to boost your online sales."
+                      title="Belajar lebih tentang Sustainable fashion."
                       image="/images/blog/post-01.jpg"
                       slug="#"
                       date="12 Feb 2025"
@@ -355,7 +355,7 @@ const BlogSidebarPage = () => {
                   </li>
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
-                      title="50 Best web design tips & tricks that will help you."
+                      title="OOTD dengan tema Back to nature."
                       image="/images/blog/post-02.jpg"
                       slug="#"
                       date="15 Feb, 2024"
@@ -363,7 +363,7 @@ const BlogSidebarPage = () => {
                   </li>
                   <li>
                     <RelatedPost
-                      title="The 8 best landing page builders, reviewed"
+                      title="Apasih sustainable fashion itu sebenarnya?"
                       image="/images/blog/post-03.jpg"
                       slug="#"
                       date="05 Jun, 2024"
@@ -381,7 +381,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Tailwind Templates
+                      Fashion
                     </a>
                   </li>
                   <li>
@@ -389,7 +389,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Landing page
+                      Artikel
                     </a>
                   </li>
                   <li>
@@ -397,7 +397,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Startup
+                      Sustainable
                     </a>
                   </li>
                   <li>
@@ -405,7 +405,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Business
+                      Design
                     </a>
                   </li>
                   <li>
@@ -413,7 +413,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Multipurpose
+                      Style
                     </a>
                   </li>
                 </ul>
@@ -423,11 +423,11 @@ const BlogSidebarPage = () => {
                   Popular Tags
                 </h3>
                 <div className="flex flex-wrap px-8 py-6">
-                  <TagButton text="Themes" />
-                  <TagButton text="UI Kit" />
-                  <TagButton text="Tailwind" />
-                  <TagButton text="Startup" />
-                  <TagButton text="Business" />
+                  <TagButton text="Fashion" />
+                  <TagButton text="Design" />
+                  <TagButton text="Style" />
+                  <TagButton text="Marketplace" />
+                  <TagButton text="Sustainable" />
                 </div>
               </div>
 
