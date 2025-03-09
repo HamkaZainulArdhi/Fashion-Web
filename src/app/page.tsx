@@ -1,7 +1,5 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import FAQAccordion from "@/components/accordion";
 import Features from "@/components/Features";
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <div className="bg-[#F0F2F9] overflow-x-hidden">
+    <div className="bg-whitebg overflow-x-hidden">
       <ScrollUp />
       <Hero />
       <Features />

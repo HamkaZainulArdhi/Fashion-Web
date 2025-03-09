@@ -21,8 +21,7 @@ const BlogSidebarPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                Sustainable Fashion: Langkah Menuju Industri Mode yang Lebih Ramah Lingkungan
                 </h1>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -38,7 +37,7 @@ const BlogSidebarPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span> Musharof Chy</span>
+                          By <span> Hamka Love Avriel</span>
                         </span>
                       </div>
                     </div>
@@ -106,9 +105,7 @@ const BlogSidebarPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                  Sustainable fashion bukan hanya tren, tetapi juga solusi nyata untuk mengurangi dampak lingkungan. Dengan menggunakan bahan ramah lingkungan, mengurangi limbah tekstil, dan menerapkan model bisnis circular fashion, industri fashion dapat menjadi lebih berkelanjutan.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -121,56 +118,33 @@ const BlogSidebarPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      {" "}
-                      malesuada{" "}
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
-                  </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      {" "}
-                      Amet dictum sit amet justo{" "}
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                  Banyak desainer kini mulai berinovasi dengan mendaur ulang pakaian bekas dan menciptakan koleksi yang lebih ramah lingkungan. Selain itu, pemilihan bahan organik dan pewarna alami juga menjadi langkah penting dalam mendukung fashion berkelanjutan.
+
                   </p>
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
+                  Mengapa Sustainable Fashion Penting?
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  Industri fashion merupakan salah satu penyumbang limbah terbesar di dunia. Dengan menerapkan konsep sustainable fashion, kita dapat mengurangi pencemaran lingkungan, menghemat sumber daya alam, dan menciptakan ekonomi yang lebih sirkular.
+                  Beberapa manfaat dari sustainable fashion meliputi:
                   </p>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                    Mengurangi limbah tekstil melalui upcycling dan daur ulang.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                    Menggunakan bahan organik dan pewarna alami.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                    Mengadopsi model bisnis circular fashion.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
+                    Meningkatkan kesadaran konsumen terhadap fashion berkelanjutan.
                     </li>
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                    "Sustainable fashion bukan hanya tentang pakaian, tetapi juga tentang masa depan yang lebih hijau dan berkelanjutan. Dengan memilih fashion yang bertanggung jawab, kita bisa mengubah industri ini menjadi lebih ramah lingkungan."
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -314,9 +288,7 @@ const BlogSidebarPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  Mendukung merek yang mengutamakan prinsip sustainable fashion serta memperpanjang masa pakai pakaian melalui perawatan yang baik adalah langkah konkret yang bisa dilakukan setiap individu. Setiap langkah kecil yang kita ambil dapat memberikan dampak besar bagi lingkungan dan industri fashion ke depan.
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">

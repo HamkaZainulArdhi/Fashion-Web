@@ -12,254 +12,224 @@ interface Course {
   rating: number;
   description: string;
   image: string;
-  icon: React.ReactNode;
 }
 
 const AboutSectionTwo = () => {
-  // Categories for the filter buttons
+ 
   const categories = [
-    "Digital Marketing",
-    "Data Science & Data Analysis",
-    "Microsoft Excel, Word and PowerPoint",
-    "UI-UX Research and Design",
+    "Fashion Berkelanjutan",
+    "Desain & Produksi Fashion",
+    "Green Bisnis & Marketing",
+    "Ekonomi Sirkular",
   ];
 
-  // Default selected category
-  const [selectedCategory, setSelectedCategory] = useState("Digital Marketing");
 
-  // Course data - expanded with 5 courses per category
+  const [selectedCategory, setSelectedCategory] = useState("Fashion Berkelanjutan");
+
   const courses: Course[] = [
-    // Digital Marketing Courses
     {
       id: 1,
-      title: "Copywriting Introduction",
-      category: "Digital Marketing",
+      title: "Pengenalan Sustainable Fashion",
+      category: "Fashion Berkelanjutan",
       videos: 5,
       students: 7603,
       rating: 4.7,
-      description: "Learn the fundamentals of copywriting to create compelling content that converts. This course covers headline writing, persuasive techniques, and writing for different platforms.",
-      image: "/api/placeholder/400/320",
-      icon: <Bookmark className="w-10 h-10 text-blue-500" />
+      description: "Memahami konsep fashion berkelanjutan dan dampaknya terhadap lingkungan serta sosial dalam industri model.",
+      image: "images/mentor/3.png",
     },
     {
       id: 2,
-      title: "SEO Fundamentals",
-      category: "Digital Marketing",
+      title: "Memilih Bahan Ramah Lingkungan",
+      category: "Fashion Berkelanjutan",
       videos: 9,
       students: 5980,
       rating: 4.8,
-      description: "Master the basics of Search Engine Optimization to improve your website's visibility. Topics include keyword research, on-page SEO, link building strategies, and performance tracking.",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-green-500" />
+      description: "Mengenal kain organik, daur ulang, dan alternatif ramah lingkungan untuk mengurangi limbah tekstil.",
+      image: "images/mentor/4.png",
     },
     {
       id: 3,
-      title: "Marketing Introduction",
-      category: "Digital Marketing",
+      title: "Slow Fashion vs. Fast Fashion",
+      category: "Fashion Berkelanjutan",
       videos: 5,
       students: 54894,
       rating: 4.8,
-      description: "A comprehensive introduction to marketing principles and strategies. Covers market research, segmentation, positioning, and the marketing mix components.",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-red-500" />
+      description: "Perbedaan konsumsi bertanggung jawab (slow fashion) dan dampak negatif dari produksi cepat (fast fashion).",
+      image: "images/mentor/5.png",
     },
     {
       id: 4,
-      title: "Marketing Funnel",
-      category: "Digital Marketing",
+      title: "Teknik Pewarnaan Eco-Friendly",
+      category: "Fashion Berkelanjutan",
       videos: 3,
       students: 3776,
       rating: 4.5,
-      description: "Understand the customer journey from awareness to conversion. Learn how to build effective marketing funnels, optimize each stage, and implement retention strategies.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-yellow-500" />
+      description: "Menggunakan pewarna alami dan teknik ramah lingkungan untuk mengurangi polusi air dan tanah.",
+      image: "images/mentor/6.png",
     },
     {
       id: 5,
-      title: "Social Media Marketing",
-      category: "Digital Marketing",
+      title: "Sertifikasi dan Standar Sustainable Fashion",
+      category: "Fashion Berkelanjutan",
       videos: 7,
       students: 8925,
       rating: 4.6,
-      description: "Learn how to build effective social media marketing strategies across multiple platforms. This course covers content creation, community management, and social analytics.",
-      image: "/api/placeholder/400/320",
-      icon: <Bookmark className="w-10 h-10 text-indigo-500" />
+      description: "Mengenal sertifikasi seperti GOTS, OEKO-TEX, dan Fair Trade untuk memastikan keberlanjutan produk fashion.",
+      image: "images/mentor/7.png",
     },
-    
-    // Data Science Courses
     {
       id: 6,
-      title: "Introduction to Google Analytics",
-      category: "Data Science & Data Analysis",
+      title: "Teknik Zero-Waste Pattern",
+      category: "Desain & Produksi Fashion",
       videos: 4,
       students: 1455,
       rating: 4.3,
-      description: "Get started with Google Analytics to track and analyze website traffic. Learn how to set up accounts, understand key metrics, create custom reports, and make data-driven decisions.",
-      image: "/api/placeholder/400/320",
-      icon: <Code className="w-10 h-10 text-purple-500" />
+      description: "Membuat pola pakaian dengan meminimalkan sisa kain agar tidak terbuang sia-sia.",
+      image: "/images/mentor/8.png",
     },
     {
       id: 7,
-      title: "SQL for Data Analysis",
-      category: "Data Science & Data Analysis",
+      title: "Upcycling & Daur Ulang Pakaian",
+      category: "Desain & Produksi Fashion",
       videos: 8,
       students: 3245,
       rating: 4.7,
-      description: "Master SQL queries for data analysis and reporting. Learn how to extract, filter, and aggregate data from databases to gain valuable business insights.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-blue-700" />
+      description: "Mengubah pakaian bekas menjadi desain baru yang kreatif dan lebih bernilai.",
+      image: "/images/mentor/9.png",
     },
     {
       id: 8,
-      title: "Data Visualization with Python",
-      category: "Data Science & Data Analysis",
+      title: "Inovasi Tekstil Berkelanjutan",
+      category: "Desain & Produksi Fashion",
       videos: 12,
       students: 2876,
       rating: 4.6,
-      description: "Learn how to create effective data visualizations using Python libraries like Matplotlib, Seaborn, and Plotly. Transform complex data into clear, compelling visual stories.",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-teal-500" />
+      description: "Mengenal material inovatif seperti kain dari jamur, nanas, dan serat daur ulang.",
+      image: "/images/mentor/10.png",
     },
     {
       id: 9,
-      title: "Machine Learning Fundamentals",
-      category: "Data Science & Data Analysis",
+      title: "Desain Digital & 3D Fashion",
+      category: "Desain & Produksi Fashion",
       videos: 15,
       students: 4532,
       rating: 4.8,
-      description: "An introduction to machine learning concepts and algorithms. Learn about supervised and unsupervised learning, model evaluation, and practical applications.",
-      image: "/api/placeholder/400/320",
-      icon: <Code className="w-10 h-10 text-orange-500" />
+      description: "Menggunakan teknologi 3D untuk mengurangi limbah produksi dan mendesain pakaian secara digital.",
+      image: "/images/mentor/11.png",
     },
     {
       id: 10,
-      title: "Statistical Analysis Basics",
-      category: "Data Science & Data Analysis",
+      title: "Manajemen Rantai Pasok Etis",
+      category: "Desain & Produksi Fashion",
       videos: 6,
       students: 1987,
       rating: 4.4,
-      description: "Learn essential statistical concepts for data analysis including probability, distributions, hypothesis testing, and regression analysis.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-purple-700" />
+      description: "Mengelola produksi secara adil, transparan, dan ramah lingkungan dalam industri fashion.",
+      image: "/images/mentor/12.png",
     },
-    
-    // Microsoft Excel Courses
     {
       id: 11,
-      title: "Excel Basics for Beginners",
-      category: "Microsoft Excel, Word and PowerPoint",
+      title: "Membangun Brand Fashion Berkelanjutan",
+      category: "Green Bisnis & Marketing",
       videos: 10,
       students: 12453,
       rating: 4.9,
-      description: "Start your Excel journey with this beginner-friendly course. Learn about spreadsheet basics, formulas, formatting, and simple data analysis techniques.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-green-700" />
+      description: "Strategi membangun bisnis fashion yang ramah lingkungan dan memiliki nilai keberlanjutan.",
+      image: "/images/mentor/13.png",
     },
     {
       id: 12,
-      title: "Advanced Excel Formulas",
-      category: "Microsoft Excel, Word and PowerPoint",
+      title: "Memahami Konsumen Peduli Lingkungan",
+      category: "Green Bisnis & Marketing",
       videos: 8,
       students: 7824,
       rating: 4.7,
-      description: "Take your Excel skills to the next level with advanced formulas and functions. Learn VLOOKUP, INDEX-MATCH, conditional functions, and more.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-blue-500" />
+      description: "Mengetahui preferensi konsumen yang mendukung fashion berkelanjutan untuk strategi pemasaran.",
+      image: "/images/mentor/14.png",
     },
     {
       id: 13,
-      title: "Professional PowerPoint Presentations",
-      category: "Microsoft Excel, Word and PowerPoint",
+      title: "Strategi Green Marketing",
+      category: "Green Bisnis & Marketing",
       videos: 7,
       students: 5629,
       rating: 4.6,
-      description: "Learn how to create stunning, professional PowerPoint presentations. Covers slide design, animations, transitions, and effective presentation techniques.",
-      image: "/api/placeholder/400/320",
-      icon: <Paintbrush className="w-10 h-10 text-red-600" />
+      description: "Menggunakan pemasaran berbasis keberlanjutan untuk meningkatkan daya tarik produk fashion hijau.",
+      image: "/images/mentor/3.png",
     },
     {
       id: 14,
-      title: "Word for Business Documents",
-      category: "Microsoft Excel, Word and PowerPoint",
+      title: "Harga & Biaya dalam Sustainable Fashion",
+      category: "Green Bisnis & Marketing",
       videos: 6,
       students: 4231,
       rating: 4.5,
-      description: "Create professional business documents using Microsoft Word. Learn about formatting, styles, templates, tables, and collaborative editing features.",
-      image: "/api/placeholder/400/320",
-      icon: <Book className="w-10 h-10 text-indigo-600" />
+      description: "Menentukan harga produk dengan mempertimbangkan bahan, etika produksi, dan keberlanjutan.",
+      image: "/images/mentor/4.png",
     },
     {
       id: 15,
-      title: "Excel Data Analysis and Dashboards",
-      category: "Microsoft Excel, Word and PowerPoint",
+      title: "Kolaborasi & Kemitraan Berkelanjutan",
+      category: "Green Bisnis & Marketing",
       videos: 9,
       students: 6547,
       rating: 4.8,
-      description: "Build interactive Excel dashboards and perform data analysis. Learn about PivotTables, charts, slicers, and data visualization techniques.",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-emerald-600" />
+      description: "Berkolaborasi dengan komunitas dan brand lain untuk memperkuat bisnis fashion berkelanjutan.",
+      image: "/images/mentor/5.png",
     },
-    
-    // UI-UX Courses
     {
       id: 16,
-      title: "UX Research Fundamentals",
-      category: "UI-UX Research and Design",
+      title: "Konsep Circular Fashion",
+      category: "Ekonomi Sirkular",
       videos: 8,
       students: 3762,
       rating: 4.7,
-      description: "Learn essential UX research methods to understand user needs. Covers user interviews, usability testing, surveys, and translating research into design insights.",
-      image: "/api/placeholder/400/320",
-      icon: <Users className="w-10 h-10 text-purple-600" />
+      description: "Mengembangkan produk fashion yang dapat digunakan kembali atau didaur ulang dalam sistem sirkular.",
+      image: "/images/mentor/6.png",
     },
     {
       id: 17,
-      title: "UI Design Principles",
-      category: "UI-UX Research and Design",
+      title: "Pasar Sewa & Fashion Second-Hand",
+      category: "Ekonomi Sirkular",
       videos: 10,
       students: 5843,
       rating: 4.8,
-      description: "Master the fundamentals of UI design including layout, typography, color theory, visual hierarchy, and creating consistent design systems.",
-      image: "/api/placeholder/400/320",
-      icon: <Paintbrush className="w-10 h-10 text-pink-500" />
+      description: "Memanfaatkan model bisnis penyewaan dan fashion bekas untuk mengurangi limbah tekstil.",
+      image: "/images/mentor/7.png",
     },
     {
       id: 18,
-      title: "Figma for UI Designers",
-      category: "UI-UX Research and Design",
+      title: "Kain Biodegradable & Kompos",
+      category: "Ekonomi Sirkular",
       videos: 12,
       students: 7921,
       rating: 4.9,
-      description: "Learn how to use Figma to create beautiful user interfaces. Covers tools, components, prototyping, collaboration features, and design workflows.",
-      image: "/api/placeholder/400/320",
-      icon: <Paintbrush className="w-10 h-10 text-blue-600" />
+      description: "Menggunakan bahan yang dapat terurai alami untuk mengurangi jejak karbon fashion.",
+      image: "/images/mentor/8.png",
     },
     {
       id: 19,
-      title: "Mobile App UX Design",
-      category: "UI-UX Research and Design",
+      title: "Perawatan & Perbaikan Pakaian",
+      category: "Ekonomi Sirkular",
       videos: 9,
       students: 4532,
       rating: 4.6,
-      description: "Design intuitive mobile app experiences following best practices. Learn about mobile patterns, navigation, gestures, and platform-specific guidelines.",
-      image: "/api/placeholder/400/320",
-      icon: <Bookmark className="w-10 h-10 text-orange-500" />
+      description: "Memperpanjang umur pakaian melalui perawatan dan teknik perbaikan sederhana.",
+      image: "/images/mentor/9.png",
     },
     {
       id: 20,
-      title: "Design Systems Workshop",
-      category: "UI-UX Research and Design",
+      title: "Kebijakan & Regulasi Sustainable Fashion",
+      category: "Ekonomi Sirkular",
       videos: 7,
       students: 3245,
       rating: 4.7,
-      description: "Learn how to create and maintain effective design systems. Covers component libraries, design tokens, documentation, and implementation strategies.",
-      image: "/api/placeholder/400/320",
-      icon: <Code className="w-10 h-10 text-teal-600" />
+      description: "Memahami regulasi dan kebijakan yang mendukung industri fashion berkelanjutan.",
+      image: "/images/mentor/10.png",
     },
-
   ];
 
-  // Filter courses based on selected category
+
   const filteredCourses = courses.filter(course => course.category === selectedCategory);
 
   return (
@@ -276,7 +246,7 @@ const AboutSectionTwo = () => {
             onClick={() => setSelectedCategory(category)}
             className={`px-4 py-2 rounded-full text-sm ${
               selectedCategory === category
-                ? "bg-teal-500 text-white"
+                ? "bg-primary text-white"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             } transition-colors duration-200`}
           >
