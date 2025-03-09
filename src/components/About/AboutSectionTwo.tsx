@@ -12,7 +12,6 @@ interface Course {
   rating: number;
   description: string;
   image: string;
-  icon: React.ReactNode;
 }
 
 const AboutSectionTwo = () => {
@@ -28,7 +27,6 @@ const AboutSectionTwo = () => {
   const [selectedCategory, setSelectedCategory] = useState("Fashion Berkelanjutan");
 
   const courses: Course[] = [
-  
     {
       id: 1,
       title: "Pengenalan Sustainable Fashion",
@@ -37,8 +35,7 @@ const AboutSectionTwo = () => {
       students: 7603,
       rating: 4.7,
       description: "Memahami konsep fashion berkelanjutan dan dampaknya terhadap lingkungan serta sosial dalam industri model.",
-      image: "/api/placeholder/400/320",
-      icon: <Bookmark className="w-10 h-10 text-blue-500" />
+      image: "images/mentor/3.png",
     },
     {
       id: 2,
@@ -48,8 +45,7 @@ const AboutSectionTwo = () => {
       students: 5980,
       rating: 4.8,
       description: "Mengenal kain organik, daur ulang, dan alternatif ramah lingkungan untuk mengurangi limbah tekstil.",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-green-500" />
+      image: "images/mentor/4.png",
     },
     {
       id: 3,
@@ -59,8 +55,7 @@ const AboutSectionTwo = () => {
       students: 54894,
       rating: 4.8,
       description: "Perbedaan konsumsi bertanggung jawab (slow fashion) dan dampak negatif dari produksi cepat (fast fashion).",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-red-500" />
+      image: "images/mentor/5.png",
     },
     {
       id: 4,
@@ -70,8 +65,7 @@ const AboutSectionTwo = () => {
       students: 3776,
       rating: 4.5,
       description: "Menggunakan pewarna alami dan teknik ramah lingkungan untuk mengurangi polusi air dan tanah.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-yellow-500" />
+      image: "images/mentor/6.png",
     },
     {
       id: 5,
@@ -81,11 +75,8 @@ const AboutSectionTwo = () => {
       students: 8925,
       rating: 4.6,
       description: "Mengenal sertifikasi seperti GOTS, OEKO-TEX, dan Fair Trade untuk memastikan keberlanjutan produk fashion.",
-      image: "/api/placeholder/400/320",
-      icon: <Bookmark className="w-10 h-10 text-indigo-500" />
+      image: "images/mentor/7.png",
     },
-    
-    // Data Science Courses
     {
       id: 6,
       title: "Teknik Zero-Waste Pattern",
@@ -94,8 +85,7 @@ const AboutSectionTwo = () => {
       students: 1455,
       rating: 4.3,
       description: "Membuat pola pakaian dengan meminimalkan sisa kain agar tidak terbuang sia-sia.",
-      image: "/api/placeholder/400/320",
-      icon: <Code className="w-10 h-10 text-purple-500" />
+      image: "/images/mentor/8.png",
     },
     {
       id: 7,
@@ -105,8 +95,7 @@ const AboutSectionTwo = () => {
       students: 3245,
       rating: 4.7,
       description: "Mengubah pakaian bekas menjadi desain baru yang kreatif dan lebih bernilai.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-blue-700" />
+      image: "/images/mentor/9.png",
     },
     {
       id: 8,
@@ -116,8 +105,7 @@ const AboutSectionTwo = () => {
       students: 2876,
       rating: 4.6,
       description: "Mengenal material inovatif seperti kain dari jamur, nanas, dan serat daur ulang.",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-teal-500" />
+      image: "/images/mentor/10.png",
     },
     {
       id: 9,
@@ -127,8 +115,7 @@ const AboutSectionTwo = () => {
       students: 4532,
       rating: 4.8,
       description: "Menggunakan teknologi 3D untuk mengurangi limbah produksi dan mendesain pakaian secara digital.",
-      image: "/api/placeholder/400/320",
-      icon: <Code className="w-10 h-10 text-orange-500" />
+      image: "/images/mentor/11.png",
     },
     {
       id: 10,
@@ -138,11 +125,8 @@ const AboutSectionTwo = () => {
       students: 1987,
       rating: 4.4,
       description: "Mengelola produksi secara adil, transparan, dan ramah lingkungan dalam industri fashion.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-purple-700" />
+      image: "/images/mentor/12.png",
     },
-    
-    // Microsoft Excel Courses
     {
       id: 11,
       title: "Membangun Brand Fashion Berkelanjutan",
@@ -151,8 +135,7 @@ const AboutSectionTwo = () => {
       students: 12453,
       rating: 4.9,
       description: "Strategi membangun bisnis fashion yang ramah lingkungan dan memiliki nilai keberlanjutan.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-green-700" />
+      image: "/images/mentor/13.png",
     },
     {
       id: 12,
@@ -162,8 +145,7 @@ const AboutSectionTwo = () => {
       students: 7824,
       rating: 4.7,
       description: "Mengetahui preferensi konsumen yang mendukung fashion berkelanjutan untuk strategi pemasaran.",
-      image: "/api/placeholder/400/320",
-      icon: <FileSpreadsheet className="w-10 h-10 text-blue-500" />
+      image: "/images/mentor/14.png",
     },
     {
       id: 13,
@@ -173,8 +155,7 @@ const AboutSectionTwo = () => {
       students: 5629,
       rating: 4.6,
       description: "Menggunakan pemasaran berbasis keberlanjutan untuk meningkatkan daya tarik produk fashion hijau.",
-      image: "/api/placeholder/400/320",
-      icon: <Paintbrush className="w-10 h-10 text-red-600" />
+      image: "/images/mentor/3.png",
     },
     {
       id: 14,
@@ -184,8 +165,7 @@ const AboutSectionTwo = () => {
       students: 4231,
       rating: 4.5,
       description: "Menentukan harga produk dengan mempertimbangkan bahan, etika produksi, dan keberlanjutan.",
-      image: "/api/placeholder/400/320",
-      icon: <Book className="w-10 h-10 text-indigo-600" />
+      image: "/images/mentor/4.png",
     },
     {
       id: 15,
@@ -195,11 +175,8 @@ const AboutSectionTwo = () => {
       students: 6547,
       rating: 4.8,
       description: "Berkolaborasi dengan komunitas dan brand lain untuk memperkuat bisnis fashion berkelanjutan.",
-      image: "/api/placeholder/400/320",
-      icon: <BarChart className="w-10 h-10 text-emerald-600" />
+      image: "/images/mentor/5.png",
     },
-    
-    // UI-UX Courses
     {
       id: 16,
       title: "Konsep Circular Fashion",
@@ -208,8 +185,7 @@ const AboutSectionTwo = () => {
       students: 3762,
       rating: 4.7,
       description: "Mengembangkan produk fashion yang dapat digunakan kembali atau didaur ulang dalam sistem sirkular.",
-      image: "/api/placeholder/400/320",
-      icon: <Users className="w-10 h-10 text-purple-600" />
+      image: "/images/mentor/6.png",
     },
     {
       id: 17,
@@ -219,8 +195,7 @@ const AboutSectionTwo = () => {
       students: 5843,
       rating: 4.8,
       description: "Memanfaatkan model bisnis penyewaan dan fashion bekas untuk mengurangi limbah tekstil.",
-      image: "/api/placeholder/400/320",
-      icon: <Paintbrush className="w-10 h-10 text-pink-500" />
+      image: "/images/mentor/7.png",
     },
     {
       id: 18,
@@ -230,8 +205,7 @@ const AboutSectionTwo = () => {
       students: 7921,
       rating: 4.9,
       description: "Menggunakan bahan yang dapat terurai alami untuk mengurangi jejak karbon fashion.",
-      image: "/api/placeholder/400/320",
-      icon: <Paintbrush className="w-10 h-10 text-blue-600" />
+      image: "/images/mentor/8.png",
     },
     {
       id: 19,
@@ -241,8 +215,7 @@ const AboutSectionTwo = () => {
       students: 4532,
       rating: 4.6,
       description: "Memperpanjang umur pakaian melalui perawatan dan teknik perbaikan sederhana.",
-      image: "/api/placeholder/400/320",
-      icon: <Bookmark className="w-10 h-10 text-orange-500" />
+      image: "/images/mentor/9.png",
     },
     {
       id: 20,
@@ -252,10 +225,8 @@ const AboutSectionTwo = () => {
       students: 3245,
       rating: 4.7,
       description: "Memahami regulasi dan kebijakan yang mendukung industri fashion berkelanjutan.",
-      image: "/api/placeholder/400/320",
-      icon: <Code className="w-10 h-10 text-teal-600" />
+      image: "/images/mentor/10.png",
     },
-
   ];
 
 
@@ -275,7 +246,7 @@ const AboutSectionTwo = () => {
             onClick={() => setSelectedCategory(category)}
             className={`px-4 py-2 rounded-full text-sm ${
               selectedCategory === category
-                ? "bg-teal-500 text-white"
+                ? "bg-primary text-white"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             } transition-colors duration-200`}
           >

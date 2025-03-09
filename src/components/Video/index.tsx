@@ -6,32 +6,32 @@ const Video = () => {
   const [isAnimating, setIsAnimating] = useState(false);
   
   // Content data for the sections
-  const sections = [
-    {
-      id: 0,
-      title: "Belajar Fleksibel dan Bersertifikat",
-      description: "Disusun bertahap dari level dasar hingga lanjutan oleh praktisi industri dari berbagai top companies. Dapatkan e-certificate di tiap materi.",
-      image: "/api/placeholder/600/450"
-    },
-    {
-      id: 1,
-      title: "Kombinasi Strategi, Praktek & Portfolio",
-      description: "Belajar sambil Praktek dengan ragam case study, worksheet dan framework. Didasarkan pada kebutuhan industri dan profesi.",
-      image: "/api/placeholder/600/450"
-    },
-    {
-      id: 2,
-      title: "Gabung Komunitas Diskusi secara Lifetime",
-      description: "Bangun network profesional, saling sharing ilmu dan praktik, sampai berbagi info loker maupun freelance. Hobi kumpul juga.",
-      image: "/api/placeholder/600/450"
-    },
-    {
-      id: 3,
-      title: "Ratusan Ribu Member. Terbukti Berdampak",
-      description: "Member MySkill telah terbukti diterima di National & Multinational companies, membangun bisnis hingga freelance.",
-      image: "/api/placeholder/600/450"
-    }
-  ];
+const sections = [
+  {
+    id: 0,
+    title: "Belajar Kapan Saja, Di Mana Saja",
+    description: "Akses kelas online kapan pun sesuai ritme belajarmu. Materi dirancang oleh expert fashion designer yang berpengalaman dalam industri sustainable fashion.",
+    image: "/api/placeholder/600/450"
+  },
+  {
+    id: 1,
+    title: "Dapatkan Ilmu Praktis & Langsung Terapkan",
+    description: "Pelajari teknik sustainable fashion mulai dari pemilihan bahan, zero-waste cutting, hingga strategi pemasaran brand fashion ramah lingkungan.",
+    image: "images/eco/fashion2.png"
+  },
+  {
+    id: 2,
+    title: "Bangun Jaringan Profesional & Kesempatan Karier",
+    description: "Terhubung dengan komunitas desainer, mentor industri, serta peluang kerja dan kolaborasi di dunia fashion berkelanjutan.",
+    image: "images/eco/fashion3.png"
+  },
+  {
+    id: 3,
+    title: "Bersertifikat & Dapatkan Portofolio Profesional",
+    description: "Setiap kursus dilengkapi e-certificate dan proyek nyata yang bisa dimasukkan ke dalam portofoliomu untuk menarik klien atau employer.",
+    image: "/api/placeholder/600/450"
+  }
+];
 
   // Handle section change with animation
   const changeSection = (index) => {
@@ -74,71 +74,63 @@ const Video = () => {
     </div>
     
     {/* Right side - Images with animation - Desktop */}
-    <div className="md:w-1/2 flex items-center justify-center relative overflow-hidden h-96">
-      <div
-        className={`absolute w-full h-full transition-all duration-300 ${getAnimationClass()}`}
-      >
-        {activeSection === 0 && (
-          <div className="relative w-full h-96">
-            <img 
-              src="/api/placeholder/400/350" 
-              alt="Certificate display"
-              className="absolute bottom-10 w-full object-contain z-10"
-            />
-            
-            <div className="absolute top-0 left-10 w-24 h-24 bg-yellow-400 rounded-full transform rotate-12 z-0"></div>
-            <div className="absolute top-20 right-10 w-20 h-20 bg-teal-400 rounded-lg transform -rotate-12 z-0"></div>
-            <div className="absolute bottom-40 right-20 w-16 h-16 bg-indigo-100 rounded-lg shadow-md z-0"></div>
-            <div className="absolute top-40 left-20 w-14 h-14 bg-gray-100 rounded-full shadow-md z-0"></div>
-          </div>
-        )}
-        
-        {activeSection === 1 && (
-          <div className="relative w-full h-96">
-            <img 
-              src="/api/placeholder/400/350" 
-              alt="Portfolio display"
-              className="absolute bottom-10 w-full object-contain z-10"
-            />
-            
-            {/* Portfolio elements */}
-            <div className="absolute top-10 left-20 w-24 h-24 bg-blue-400 rounded-lg transform -rotate-6 z-0"></div>
-            <div className="absolute top-30 right-20 w-20 h-20 bg-yellow-300 rounded-lg transform rotate-12 z-0"></div>
-            <div className="absolute bottom-30 left-30 w-16 h-16 bg-teal-100 rounded-full shadow-md z-0"></div>
-          </div>
-        )}
-        
-        {activeSection === 2 && (
-          <div className="relative w-full h-96">
-            <img 
-              src="/api/placeholder/400/350" 
-              alt="Community display"
-              className="absolute bottom-10 w-full object-contain z-10"
-            />
-            
-            {/* Community elements */}
-            <div className="absolute top-20 right-10 w-24 h-24 bg-green-400 rounded-full transform rotate-12 z-0"></div>
-            <div className="absolute bottom-40 left-10 w-20 h-20 bg-yellow-200 rounded-full transform -rotate-12 z-0"></div>
-            <div className="absolute top-40 left-30 w-16 h-16 bg-blue-100 rounded-lg shadow-md z-0"></div>
-          </div>
-        )}
-        
-        {activeSection === 3 && (
-          <div className="relative w-full h-96">
-            <img 
-              src="/api/placeholder/400/350" 
-              alt="Members display"
-              className="absolute bottom-10 w-full object-contain z-10"
-            />
-            
-            {/* Members elements */}
-            <div className="absolute top-10 left-10 w-24 h-24 bg-purple-300 rounded-full transform -rotate-6 z-0"></div>
-            <div className="absolute top-30 right-30 w-20 h-20 bg-teal-300 rounded-lg transform rotate-12 z-0"></div>
-            <div className="absolute bottom-40 right-10 w-16 h-16 bg-orange-100 rounded-full shadow-md z-0"></div>
-          </div>
-        )}
+  
+  <div className="md:w-1/2 flex items-center justify-center relative overflow-hidden h-auto">
+  <div
+    className={`absolute w-full h-full transition-all mt-20 duration-300 ${getAnimationClass()}`}
+  >
+    {activeSection === 0 && (
+      <div className="relative w-full h-auto flex items-center justify-center">
+        <img 
+          src="images/eco/benefit.png" 
+          alt="Certificate display"
+          className="w-full h-full object-cover"
+        />
       </div>
-    </div>
+    )}
+    {activeSection === 0 && (
+      <div className="relative w-full h-auto flex items-center justify-center">
+        <img 
+          src="images/eco/benefit.png" 
+          alt="Certificate display"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    )}
+    {activeSection === 1 && (
+      <div className="relative w-full h-auto flex items-center justify-center">
+        <img 
+          src="images/eco/benefit.png" 
+          alt="Certificate display"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    )}
+    {activeSection === 2 && (
+      <div className="relative w-full h-auto flex items-center justify-center">
+        <img 
+          src="images/eco/benefit.png" 
+          alt="Certificate display"
+          className="w-full h-full object-cover"
+        />
+        
+      </div>
+    )}
+    {activeSection === 3 && (
+      <div className="relative w-full h-auto flex items-center justify-center">
+        <img 
+          src="images/eco/benefit.png" 
+          alt="Certificate display"
+          className="w-full h-full object-cover"
+        />
+
+      </div>
+    )}
+    
+
+  </div>
+</div>
+
   </div>
 
   {/* Mobile layout */}
@@ -167,9 +159,9 @@ const Video = () => {
         {activeSection === 0 && (
           <div className="relative w-full h-full">
             <img 
-              src="/api/placeholder/400/350" 
+              src="images/eco/benefit.png" 
               alt="Certificate display"
-              className="absolute bottom-0 w-full object-contain z-10"
+              className="rounded-lg shadow-md w-full h-auto"
             />
             
             <div className="absolute top-0 left-4 w-16 h-16 bg-yellow-400 rounded-full transform rotate-12 z-0"></div>

@@ -12,7 +12,6 @@ interface CourseCardProps {
     rating: number;
     description: string;
     image: string;
-    icon: React.ReactNode;
   };
 }
 
@@ -26,9 +25,6 @@ const CourseCard = ({ course }: CourseCardProps) => {
             alt={course.title} 
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-            {course.icon}
-          </div>
         </div>
         
         <div className="p-4">
@@ -55,7 +51,7 @@ const CourseCard = ({ course }: CourseCardProps) => {
         </div>
         {/* bagian bawah nya */}
         <div className='p-3'>
-        <div className="flex-grow overflow-y-auto text-xs text-gray-600">
+        <div className="flex-grow overflow-y-hidden text-xs text-gray-600">
           <p>{course.description}</p>
         </div>
         <Link href="/about">
