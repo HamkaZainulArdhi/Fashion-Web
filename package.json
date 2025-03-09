@@ -1,5 +1,5 @@
 {
-  "name": "web-fashion-lomba",
+  "name": "startup-nextjs-template",
   "version": "2.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,6 @@
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",
-    "@radix-ui/react-label": "^2.1.2",
-    "@radix-ui/react-radio-group": "^1.2.3",
-    "@radix-ui/react-slot": "^1.1.2",
     "@tabler/icons-react": "^3.30.0",
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
@@ -20,12 +17,11 @@
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "dotted-map": "^2.2.3",
     "eslint": "^8.56.0",
     "eslint-config-next": "15.1.6",
     "framer-motion": "^11.18.2",
     "lucide-react": "^0.476.0",
-    "motion": "^12.4.10",
+    "motion": "^12.4.7",
     "next": "15.1.6",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",

@@ -14,17 +14,18 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Komunitas"
-        description="Selamat datang di Blog Komunitas Sustainstyle Fashion!🌿👗
-        Disini, kami berbagi wawasan, tren, dan solusi inovatif untuk menciptakan industri fashion yang lebih berkelanjutan."
+        pageName="Blog Grid"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
       />
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
-          {/* Gunakan grid untuk mengatur tampilan 3x2 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogData.slice(0, 6).map((blog) => ( // Ambil hanya 6 item agar 3x2
-              <div key={blog.id}>
+          <div className="-mx-4 flex flex-wrap justify-center">
+            {blogData.map((blog) => (
+              <div
+                key={blog.id}
+                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
+              >
                 <SingleBlog blog={blog} />
               </div>
             ))}

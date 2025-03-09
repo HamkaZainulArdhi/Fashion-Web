@@ -6,31 +6,30 @@ import { Covertext } from '../aceternity/cover';
 import { Glare } from '../aceternity/glare-card';
 
 
-
 const SustainaStyleInteractive = () => {
   const [activeTab, setActiveTab] = useState('elearning');
 
   const tabContent = {
     elearning: {
-      title: <><span className="text-teal-500">Mudah</span> Belajar & Membangun<br />Karier di Sustainable Fashion.</>,
-      description: "Permudah para desainer fashion untuk mengakses materi belajar, mengembangkan keterampilan, hingga mendapatkan peluang seperti:",
-     features: ["Zero-Waste", "Bahan Organik", "Brand Sustainable", "Kolaborasi"],
+      title: <><span className="text-teal-500">Kemudahan</span> dalam Mengelola<br />Absensi & Pengajuan.</>,
+      description: "Permudah administrasi karyawan untuk melakukan clock-in dan clock out, hingga berbagai pengajuan seperti:",
+      features: ["Lembur", "Cuti", "Split", "Reimburse"],
       buttonText: "Kunjungi",
-      imageSrc: "images/hero/beranda.png"
+      imageSrc: "images/hero/web.png"
     },
     marketplace: {
       title: <><span className="text-teal-500">Marketplace</span> Produk<br />Sustainable Fashion.</>,
       description: "Jual dan beli produk sustainable fashion dari berbagai brand lokal yang ramah lingkungan:",
       features: ["Pakaian", "Aksesoris", "Eco-friendly", "Handmade"],
       buttonText: "Belanja Sekarang",
-      imageSrc: "images/hero/sustainshop.png"
+      imageSrc: "images/hero/web.png"
     },
     tukarPakaian: {
       title: <><span className="text-teal-500">Tukar Pakaian</span> Bekas<br />Untuk Lingkungan Lebih Baik.</>,
       description: "Tukarkan pakaian bekas yang masih layak pakai untuk mengurangi limbah tekstil:",
       features: ["Tukar Tambah", "Donasi", "Daur Ulang", "Kredit Poin"],
       buttonText: "Mulai Tukar",
-      imageSrc: "images/hero/sustainswap.png"
+      imageSrc: "images/hero/image.png"
     },
     challengeReward: {
       title: <><span className="text-teal-500">Challenge & Reward</span><br />Program Sustainability.</>,
@@ -66,19 +65,19 @@ const SustainaStyleInteractive = () => {
           className={`flex items-center justify-center px-6 py-2 rounded-md font-medium transition-colors ${activeTab === 'marketplace' ? 'bg-primary text-white' : 'bg-white text-primary border border-primary'}`}
           onClick={() => setActiveTab('marketplace')}
         >
-          SustainShop
+          Marketplace
         </button>
         <button 
           className={`flex items-center justify-center px-6 py-2 rounded-md font-medium transition-colors ${activeTab === 'tukarPakaian' ? 'bg-primary text-white' : 'bg-white text-primary border border-primary'}`}
           onClick={() => setActiveTab('tukarPakaian')}
         >
-          SustainSwap
+          Tukar Pakaian
         </button>
         <button 
           className={`flex items-center justify-center px-6 py-2 rounded-md font-medium transition-colors ${activeTab === 'challengeReward' ? 'bg-primary text-white' : 'bg-white text-primary border border-primary'}`}
           onClick={() => setActiveTab('challengeReward')}
         >
-          SustainCare
+          Challenge & Reward
         </button>
       </div>
 

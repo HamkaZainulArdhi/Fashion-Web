@@ -3,13 +3,11 @@ import React from "react";
 import { AnimatedTooltip } from "@/components/UI/animated-tooltip";
 
 const people = [
-  { id: 1, name: "100% Bahan Alami", designation: "Belajar Dengan Bahan Ramah Lingkungan", image: "/images/hero/eye.png", position: "top-20 left-1/3 sm:top-24 sm:left-1/2 md:top-28 md:left-[24rem] lg:top-20 lg:left-[32rem]" },
-  { id: 2, name: "Fashion Kekinian", designation: "Dengan Pemanfaatan Tekstil Hijau ", image: "/images/hero/eye.png", position: "bottom-40 left-3 sm:bottom-36 sm:left-8 md:bottom-44 md:left-[16rem] lg:bottom-48 lg:left-[20rem]" },
-  { id: 3, name: "Menjadi Fashion Designer", designation: "Yang Peduli Akan Lingkungan", image: "/images/hero/eye.png", position: "top-36 right-16 sm:top-40 sm:right-10 md:top-44 md:right-[20rem] lg:top-52 lg:right-[24rem]" },
-  { id: 4, name: "Styel Sustainable", designation: "Mencintai Lingkungan Dengan Fashion", image: "/images/hero/eye.png", position: "bottom-28 right-15 sm:bottom-32 sm:right-12 md:bottom-32 md:right-[28rem] lg:bottom-28 lg:right-[36rem]" }
+  { id: 1, name: "John Doe", designation: "Software Engineer", image: "/images/hero/baju.png", position: "top-10 left-4/3 transform -translate-x-1/2 sm:-top-4" },
+  { id: 2, name: "Robert Johnson", designation: "Product Manager", image: "/images/hero/baju.png", position: "top-24 left-32 sm:top-40 sm:left-64" },
+  { id: 3, name: "Jane Smith", designation: "Data Scientist", image: "/images/hero/baju.png", position: "top-40 right-10 sm:top-60 sm:right-20" },
+  { id: 4, name: "Tyler Durden", designation: "Soap Developer", image: "/images/hero/baju.png", position: "bottom-20 right-20 sm:bottom-32 sm:right-60" },
 ];
-
-
 //cek cek aja
 export function AnimatedTooltipPreview() {
   return (
