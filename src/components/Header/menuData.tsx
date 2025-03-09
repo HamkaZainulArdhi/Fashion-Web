@@ -22,7 +22,7 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "SustainShop",
-    path: "/tukar",
+    path: "/ecommerce",
     newTab: false,
   },
   {

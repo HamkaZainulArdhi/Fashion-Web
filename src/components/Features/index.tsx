@@ -12,9 +12,9 @@ const SustainaStyleInteractive = () => {
 
   const tabContent = {
     elearning: {
-      title: <><span className="text-teal-500">Kemudahan</span> dalam Mengelola<br />Absensi & Pengajuan.</>,
-      description: "Permudah administrasi karyawan untuk melakukan clock-in dan clock out, hingga berbagai pengajuan seperti:",
-      features: ["Lembur", "Cuti", "Split", "Reimburse"],
+      title: <><span className="text-teal-500">Mudah</span> Belajar & Membangun<br />Karier di Sustainable Fashion.</>,
+      description: "Permudah para desainer fashion untuk mengakses materi belajar, mengembangkan keterampilan, hingga mendapatkan peluang seperti:",
+     features: ["Zero-Waste", "Bahan Organik", "Brand Sustainable", "Kolaborasi"],
       buttonText: "Kunjungi",
       imageSrc: "images/hero/beranda.png"
     },
@@ -23,7 +23,7 @@ const SustainaStyleInteractive = () => {
       description: "Jual dan beli produk sustainable fashion dari berbagai brand lokal yang ramah lingkungan:",
       features: ["Pakaian", "Aksesoris", "Eco-friendly", "Handmade"],
       buttonText: "Belanja Sekarang",
-      imageSrc: "images/hero/web.png"
+      imageSrc: "images/hero/sustainshop.png"
     },
     tukarPakaian: {
       title: <><span className="text-teal-500">Tukar Pakaian</span> Bekas<br />Untuk Lingkungan Lebih Baik.</>,
