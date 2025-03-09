@@ -212,11 +212,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Tunik berbahan linen organik yang ringan dan nyaman, cocok untuk
-          cuaca tropis. Diproduksi dengan teknik ramah lingkungan untuk
-          mengurangi limbah tekstil.
-        </p>
+        <ul>
+          <li>• Dipakai hanya beberapa kali.</li>
+          <li>• Terlihat masih seperti baru.</li>
+          <li>• Nyaman untuk cuaca panas.</li>
+          <li>• Cocok untuk gaya santai.</li>
+          <li>• Siap untuk pemilik baru.</li>
+        </ul>
       );
     },
   },
@@ -227,11 +229,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Sweater hangat yang dibuat dari wol daur ulang, menghadirkan gaya
-          klasik dengan sentuhan keberlanjutan. Dibuat dengan metode tanpa
-          pewarna sintetis untuk menjaga keseimbangan alam.
-        </p>
+        <ul>
+          <li>• Jarang dipakai, kondisi prima.</li>
+          <li>• Memberikan kehangatan maksimal.</li>
+          <li>• Cocok untuk musim dingin.</li>
+          <li>• Warna netral, mudah dipadukan.</li>
+          <li>• Siap menemani pemilik baru.</li>
+        </ul>
       );
     },
   },
@@ -242,11 +246,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Kimono modern berbahan katun organik, menggabungkan desain tradisional
-          dengan pendekatan produksi berkelanjutan. Nyaman dipakai dan ramah
-          terhadap kulit sensitif.
-        </p>
+        <ul>
+          <li>• Hanya sekali dipakai.</li>
+          <li>• Masih seperti baru.</li>
+          <li>• Desain modern dan elegan.</li>
+          <li>• Ringan dan nyaman di kulit.</li>
+          <li>• Siap memberikan kesan baru.</li>
+        </ul>
       );
     },
   },
@@ -257,11 +263,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Blazer elegan berbahan serat rami yang kuat dan tahan lama, tanpa
-          penggunaan bahan kimia berbahaya. Cocok untuk tampilan profesional
-          yang tetap peduli lingkungan.
-        </p>
+        <ul>
+          <li>• Pernah dipakai untuk acara formal.</li>
+          <li>• Masih dalam kondisi sangat baik.</li>
+          <li>• Desain stylish dan profesional.</li>
+          <li>• Cocok untuk kerja atau event.</li>
+          <li>• Siap digunakan kembali.</li>
+        </ul>
       );
     },
   },
@@ -272,11 +280,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Gaun berbahan Tencel yang dikenal karena kelembutannya serta proses
-          produksinya yang minim limbah. Pilihan sempurna untuk gaya modern yang
-          ramah lingkungan.
-        </p>
+        <ul>
+          <li>• Hanya dipakai di satu acara.</li>
+          <li>• Kondisi masih sangat bagus.</li>
+          <li>• Flowy dan nyaman dikenakan.</li>
+          <li>• Cocok untuk tampilan feminin.</li>
+          <li>• Menunggu pemilik baru.</li>
+        </ul>
       );
     },
   },

@@ -212,11 +212,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Tukar pakaian dengan mudah dan berikan pakaian yang tak terpakai
-          untuk mendapatkan item baru. Bergabunglah dalam gerakan mengurangi
-          sampah tekstil dengan memilih tukar, bukan membuang!
-        </p>
+        <ul>
+          <li>• Pernah digunakan untuk acara formal.</li>
+          <li>• Dipadukan dengan sandal dan tas anyaman.</li>
+          <li>• Dicuci dengan detergen ramah lingkungan.</li>
+          <li>• Masih dalam kondisi sangat baik.</li>
+          <li>• Siap untuk pemilik baru.</li>
+        </ul>
       );
     },
   },
@@ -227,11 +229,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Jadikan pakaian lama bernilai kembali! Tukar pakaian dengan orang lain
-          dan bantu mengurangi limbah tekstil dengan cara yang lebih
-          berkelanjutan.
-        </p>
+        <ul>
+          <li>• Pernah dikenakan saat musim panas.</li>
+          <li>• Dipadukan dengan celana katun dan sneakers.</li>
+          <li>• Dicuci dengan metode ramah lingkungan.</li>
+          <li>• Tetap nyaman dan bertekstur lembut.</li>
+          <li>• Menunggu pemilik baru.</li>
+        </ul>
       );
     },
   },
@@ -242,11 +246,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Satu pakaian keluar, satu pakaian masuk! Tukar pakaianmu dan bantu
-          menciptakan dunia yang lebih ramah lingkungan dengan mengurangi
-          pembuangan tekstil.
-        </p>
+        <ul>
+          <li>• Pernah digunakan dalam acara bisnis kasual.</li>
+          <li>• Dipadukan dengan dress berwarna pastel.</li>
+          <li>• Disimpan dengan baik dalam lemari bersirkulasi udara.</li>
+          <li>• Masih tampak seperti baru.</li>
+          <li>• Siap digunakan kembali.</li>
+        </ul>
       );
     },
   },
@@ -257,10 +263,13 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Pakaian yang tidak kamu butuhkan mungkin berharga bagi orang lain.
-          Tukar pakaian dan ciptakan siklus mode yang lebih berkelanjutan!
-        </p>
+        <ul>
+          <li>• Digunakan saat cuaca dingin.</li>
+          <li>• Dipadukan dengan celana jeans dan boots.</li>
+          <li>• Dicuci dengan deterjen khusus kain wol.</li>
+          <li>• Masih nyaman dan hangat.</li>
+          <li>• Siap menemani pemilik baru.</li>
+        </ul>
       );
     },
   },
@@ -271,12 +280,16 @@ const cards = [
     ctaText: "Tukar",
     content: () => {
       return (
-        <p>
-          Ubah pakaian lama menjadi peluang baru! Tukar pakaian yang sudah tidak
-          terpakai dan dukung gerakan pengurangan limbah tekstil.
-        </p>
+        <ul>
+          <li>• Dipakai dalam acara outdoor musim semi.</li>
+          <li>• Dipadukan dengan blouse putih dan topi lebar.</li>
+          <li>• Dicuci dengan tangan untuk menjaga seratnya.</li>
+          <li>• Tetap terlihat cantik dan nyaman dikenakan.</li>
+          <li>• Menunggu pemilik baru.</li>
+        </ul>
       );
     },
   },
 ];
+
 

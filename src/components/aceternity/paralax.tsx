@@ -7,66 +7,66 @@ export function Parallax() {
 }
 export const products = [
   {
-    title: "Testi - 1",
-    link: "https://gomoonbeam.com",
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
     thumbnail:
-      "/images/testimonial/testi-1.png",
+      "/images/artikel/1.jpg",
   },
   {
-    title: "Testi - 2",
-    link: "https://cursor.so",
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
     thumbnail:
-      "/images/testimonial/testi-2.png",
+      "/images/artikel/4.jpg",
   },
   {
-    title: "Testi - 3",
-    link: "https://userogue.com",
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
     thumbnail:
-      "/images/testimonial/testi-3.png",
-  },
-
-  {
-    title: "Testi - 4",
-    link: "https://editorially.org",
-    thumbnail:
-      "/images/testimonial/testi-4.png",
-  },
-  {
-    title: "Testi - 5",
-    link: "https://editrix.ai",
-    thumbnail:
-      "/images/testimonial/testi-5.png",
-  },
-  {
-    title: "Testi - 6",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "/images/testimonial/testi-6.png",
+      "/images/artikel/3.jpg",
   },
 
   {
-    title: "Testi - 7",
-    link: "https://algochurn.com",
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
     thumbnail:
-      "/images/testimonial/testi-7.png",
+      "/images/artikel/4.jpg",
   },
   {
-    title: "Testi - 8",
-    link: "https://ui.aceternity.com",
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
     thumbnail:
-      "/images/testimonial/testi-8.png",
+      "/images/artikel/3.jpg",
   },
   {
-    title: "Testi - 9",
-    link: "https://tailwindmasterkit.com",
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
     thumbnail:
-      "/images/testimonial/testi-9.png",
+      "/images/artikel/4.jpg",
+  },
+
+  {
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
+    thumbnail:
+      "/images/artikel/2.jpg",
   },
   {
-    title: "Testi - 10",
-    link: "https://smartbridgetech.com",
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
     thumbnail:
-      "/images/testimonial/testi-10.png",
+      "/images/artikel/1.jpg",
+  },
+  {
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
+    thumbnail:
+      "/images/artikel/3.jpg",
+  },
+  {
+    title: "Artikel Green Fashion",
+    link: "/blog-sidebar",
+    thumbnail:
+      "/images/artikel/4.jpg",
   },
 
 ];
