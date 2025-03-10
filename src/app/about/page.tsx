@@ -13,7 +13,7 @@ import FAQAccordion from '@/components/Detail/accordion';
 
 export const metadata = {
   title: "Silabus Pembelajaran | e-Learning sustainable fashion",
-  description: "This is Contact Page for Startup Nextjs Template",
+  description: "SustainStyle",
 };
 
 export default function SilabusPage() {
