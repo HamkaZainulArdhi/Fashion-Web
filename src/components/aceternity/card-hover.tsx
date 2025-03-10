@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Desain kreatif berprinsip ramah lingkungan.",
     link: "#",
-    image: "/images/hero/gantungan (2).png",
+    image: "/images/hero/gantungan.png",
   },
   {
     title: "Bangun koneksi fashion melalui kelas interaktif.",

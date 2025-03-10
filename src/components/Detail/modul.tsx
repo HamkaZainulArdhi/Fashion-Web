@@ -23,8 +23,8 @@ const CourseModule: React.FC<CourseModuleProps> = ({
     <div className="mb-8 p-3 border-2 border-gray-200 rounded-xl">
       <div className="flex justify-between items-start ">
         <h3 className="text-lg font-bold">{number}. {title}</h3>
-        <Image src={image} alt="modul" className={`w-12 h-13 flex items-center justify-center font-bold rounded-lg`}>
-        </Image>
+        <img src={image} alt="modul" className={`w-12 h-13 flex items-center justify-center font-bold rounded-lg`}>
+        </img>
       </div>
       <div className="text-sm text-gray-600 mb-2">
         <p>Durasi: {duration}</p>

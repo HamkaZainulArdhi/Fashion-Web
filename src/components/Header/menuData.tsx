@@ -50,24 +50,30 @@ const menuData: Menu[] = [
       },
       {
         id: 45,
+        title: "Donasi",
+        path: "/donasi-detail",
+        newTab: false,
+      },
+      {
+        id: 46,
         title: "Checkout",
         path: "/checkout",
         newTab: false,
       },
       {
-        id: 46,
+        id: 47,
         title: "Sign In",
         path: "/signin",
         newTab: false,
       },
       {
-        id: 47,
+        id: 48,
         title: "Sign Up",
         path: "/signup",
         newTab: false,
       },
       {
-        id: 48,
+        id: 49,
         title: "Error Page",
         path: "/error",
         newTab: false,

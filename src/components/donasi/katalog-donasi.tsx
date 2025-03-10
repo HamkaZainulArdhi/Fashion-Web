@@ -33,6 +33,8 @@ const DonationCard: React.FC<DonationCardProps> = ({
             <Image 
               src={imageUrl} 
               alt="foto" 
+              width={500}
+              height={500}
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-2 left-2 bg-white px-2 py-1 rounded-full text-xs flex items-center">

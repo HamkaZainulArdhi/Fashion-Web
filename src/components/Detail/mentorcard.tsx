@@ -1,6 +1,6 @@
 import React from 'react';
 import { Linkedin } from 'lucide-react';
-import Image from "next/image";
+
 
 interface MentorCardProps {
   name: string;
@@ -14,7 +14,7 @@ const MentorCard: React.FC<MentorCardProps> = ({ name, image, position, descript
     <div className="flex gap-4 mb-6 border-2 rounded-xl p-4 bg-blue-50">
     <div className="relative w-36 h-44 flex-shrink-0">
   {/* Gambar Mentor */}
-  <Image 
+  <img 
     src={image} 
     alt="Mentor" 
     className="w-full h-full object-contain"
@@ -22,7 +22,7 @@ const MentorCard: React.FC<MentorCardProps> = ({ name, image, position, descript
 
   {/* Efek Blur + Gradient di bawah */}
   <div className="absolute bottom-[-15px] left-0 w-full h-20 bg-gradient-to-t from-white via-white/80 to-transparent blur-md"></div>
-</div>
+  </div>
 
       <div>
         <h3 className="font-bold">{name}</h3>

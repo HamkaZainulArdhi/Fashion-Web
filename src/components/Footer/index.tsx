@@ -42,17 +42,17 @@ const Footer: React.FC = () => {
               <h3 className="font-medium mb-4">Program</h3>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li>
-                  <Link href="/online-course" className="hover:text-white transition-colors">
+                  <Link href="/about" className="hover:text-white transition-colors">
                     Online Course
                   </Link>
                 </li>
                 <li>
-                  <Link href="/bootcamp" className="hover:text-white transition-colors">
+                  <Link href="/about" className="hover:text-white transition-colors">
                     Bootcamp
                   </Link>
                 </li>
                 <li>
-                  <Link href="/corporate-training" className="hover:text-white transition-colors">
+                  <Link href="/about" className="hover:text-white transition-colors">
                     Corporate Training
                   </Link>
                 </li>
@@ -74,8 +74,8 @@ const Footer: React.FC = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/community" className="hover:text-white transition-colors">
-                    Komunitas
+                  <Link href="/donasi" className="hover:text-white transition-colors">
+                    Donasi
                   </Link>
                 </li>
               </ul>
@@ -86,17 +86,17 @@ const Footer: React.FC = () => {
               <h3 className="font-medium mb-4">Support</h3>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li>
-                  <Link href="/contact" className="hover:text-white transition-colors">
+                  <Link href="/error" className="hover:text-white transition-colors">
                     Hubungi Kami
                   </Link>
                 </li>
                 <li>
-                  <Link href="/terms" className="hover:text-white transition-colors">
+                  <Link href="/error" className="hover:text-white transition-colors">
                     Syarat dan Ketentuan
                   </Link>
                 </li>
                 <li>
-                  <Link href="/privacy" className="hover:text-white transition-colors">
+                  <Link href="/error" className="hover:text-white transition-colors">
                     Kebijakan Privasi
                   </Link>
                 </li>
