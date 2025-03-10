@@ -7,66 +7,66 @@ export function Parallax() {
 }
 export const products = [
   {
-    title: "Artikel Green Fashion",
+    title: "Artikel Green Fashion-0",
     link: "/blog-sidebar",
     thumbnail:
-      "/images/artikel/1.jpg",
+      "/images/blog/1.png",
   },
   {
-    title: "Artikel Green Fashion",
+    title: "Artikel Green Fashion-1",
     link: "/blog-sidebar",
     thumbnail:
-      "/images/artikel/4.jpg",
+      "/images/blog/2.png",
   },
   {
-    title: "Artikel Green Fashion",
+    title: "Artikel Green Fashion-2",
     link: "/blog-sidebar",
     thumbnail:
-      "/images/artikel/3.jpg",
-  },
-
-  {
-    title: "Artikel Green Fashion",
-    link: "/blog-sidebar",
-    thumbnail:
-      "/images/artikel/4.jpg",
-  },
-  {
-    title: "Artikel Green Fashion",
-    link: "/blog-sidebar",
-    thumbnail:
-      "/images/artikel/3.jpg",
-  },
-  {
-    title: "Artikel Green Fashion",
-    link: "/blog-sidebar",
-    thumbnail:
-      "/images/artikel/4.jpg",
+      "/images/blog/3.png",
   },
 
   {
-    title: "Artikel Green Fashion",
+    title: "Artikel Green Fashion-3",
     link: "/blog-sidebar",
     thumbnail:
-      "/images/artikel/2.jpg",
+      "/images/blog/4.png",
   },
   {
-    title: "Artikel Green Fashion",
+    title: "Artikel Green Fashion-4",
     link: "/blog-sidebar",
     thumbnail:
-      "/images/artikel/1.jpg",
+      "/images/blog/5.png",
   },
   {
-    title: "Artikel Green Fashion",
+    title: "Artikel Green Fashion-5",
     link: "/blog-sidebar",
     thumbnail:
-      "/images/artikel/3.jpg",
+      "/images/blog/6.png",
+  },
+
+  {
+    title: "Artikel Green Fashion-6",
+    link: "/blog-sidebar",
+    thumbnail:
+      "/images/blog/1.png",
   },
   {
-    title: "Artikel Green Fashion",
+    title: "Artikel Green Fashion-7",
     link: "/blog-sidebar",
     thumbnail:
-      "/images/artikel/4.jpg",
+      "/images/blog/2.png",
+  },
+  {
+    title: "Artikel Green Fashion-8",
+    link: "/blog-sidebar",
+    thumbnail:
+      "/images/blog/3.png",
+  },
+  {
+    title: "Artikel Green Fashion-9",
+    link: "/blog-sidebar",
+    thumbnail:
+      "/images/blog/4.png",
   },
 
 ];

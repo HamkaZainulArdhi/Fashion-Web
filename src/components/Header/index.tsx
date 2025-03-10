@@ -140,7 +140,7 @@ const Header = () => {
                                 </span>
                               </p>
                               <div
-                                className={`submenu relative left-0 top-full rounded-xl bg-primary transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
+                                className={`submenu relative left-0 top-full p-4 rounded-xl bg-primary transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
                                   openIndex === index ? "block" : "hidden"
                                 }`}
                               >

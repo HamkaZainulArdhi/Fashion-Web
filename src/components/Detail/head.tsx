@@ -1,8 +1,16 @@
 "use client";
-import React from 'react';
-import Folder from '../Folder/Folder';
+import React from "react";
+import Folder from "../Folder/Folder";
 
 const Head: React.FC = () => {
+  // Fungsi scroll ke elemen yang ditentukan berdasarkan id
+  const handleScrollToSection = (id: string) => {
+    const targetSection = document.getElementById(id);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };;
+
   return (
     <div className="flex flex-col md:flex-row items-center justify-between py-16 px-4 md:px-8 lg:px-16">
       <div className="w-full md:w-1/2 mb-8 md:mb-0">
@@ -12,10 +20,16 @@ const Head: React.FC = () => {
           Kembangkan keterampilan Anda dalam desain fashion berkelanjutan—pelajari teknik ramah lingkungan langsung dari para ahli industri melalui bootcamp ini.
         </p>
         <div className="flex flex-wrap gap-4">
-          <button className="bg-primary text-white px-6 py-2 rounded-md hover:bg-teal-700 transition">
+          <button
+            onClick={() => handleScrollToSection("biaya")}
+            className="bg-primary text-white px-6 py-2 rounded-md hover:bg-teal-700 transition"
+          >
             Daftar Sekarang
           </button>
-          <button className="border border-teal-600 text-teal-600 px-6 py-2 rounded-md hover:bg-teal-50 transition">
+          <button
+            onClick={() => handleScrollToSection("kurikulum")}
+            className="border border-teal-600 text-teal-600 px-6 py-2 rounded-md hover:bg-teal-50 transition"
+          >
             Pelajari Lebih Lanjut
           </button>
         </div>
