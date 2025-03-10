@@ -23,6 +23,8 @@ const CourseCard = ({ course }: CourseCardProps) => {
         <div className="h-56 relative overflow-hidden">
           <Image 
             src={course.image} 
+            width={500} 
+            height={500} 
             alt={course.title} 
             className="w-full h-full object-cover"
           />

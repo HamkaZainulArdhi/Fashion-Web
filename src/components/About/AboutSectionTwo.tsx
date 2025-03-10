@@ -35,7 +35,7 @@ const AboutSectionTwo = () => {
       students: 7603,
       rating: 4.7,
       description: "Memahami konsep fashion berkelanjutan dan dampaknya terhadap lingkungan serta sosial dalam industri model.",
-      image: "images/mentor/3.png",
+      image: "/images/mentor/3.png",
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ const AboutSectionTwo = () => {
       students: 5980,
       rating: 4.8,
       description: "Mengenal kain organik, daur ulang, dan alternatif ramah lingkungan untuk mengurangi limbah tekstil.",
-      image: "images/mentor/4.png",
+      image: "/images/mentor/4.png",
     },
     {
       id: 3,
@@ -55,7 +55,7 @@ const AboutSectionTwo = () => {
       students: 54894,
       rating: 4.8,
       description: "Perbedaan konsumsi bertanggung jawab (slow fashion) dan dampak negatif dari produksi cepat (fast fashion).",
-      image: "images/mentor/5.png",
+      image: "/images/mentor/5.png",
     },
     {
       id: 4,
@@ -65,7 +65,7 @@ const AboutSectionTwo = () => {
       students: 3776,
       rating: 4.5,
       description: "Menggunakan pewarna alami dan teknik ramah lingkungan untuk mengurangi polusi air dan tanah.",
-      image: "images/mentor/6.png",
+      image: "/images/mentor/6.png",
     },
     {
       id: 5,
@@ -75,7 +75,7 @@ const AboutSectionTwo = () => {
       students: 8925,
       rating: 4.6,
       description: "Mengenal sertifikasi seperti GOTS, OEKO-TEX, dan Fair Trade untuk memastikan keberlanjutan produk fashion.",
-      image: "images/mentor/7.png",
+      image: "/images/mentor/7.png",
     },
     {
       id: 6,
