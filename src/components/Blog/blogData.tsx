@@ -61,7 +61,7 @@ const blogData: Blog[] = [
 
   {
     id: 5,
-    title: "5 Cara Mudah Memulai Gaya Hidup Sustainable Fashion",
+    title: "Cara Memulai Gaya Hidup Sustainable Fashion",
     paragraph:
       "Tips praktis untuk mulai menerapkan gaya berpakaian yang lebih berkelanjutan.",
     image: "/images/blog/blog-05.jpg",

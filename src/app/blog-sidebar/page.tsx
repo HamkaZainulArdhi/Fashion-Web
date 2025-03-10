@@ -37,7 +37,7 @@ const BlogSidebarPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span> Hamka Love Avriel</span>
+                          By <span> Hamka ZainARdhi</span>
                         </span>
                       </div>
                     </div>
@@ -296,9 +296,11 @@ const BlogSidebarPage = () => {
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
+                        <TagButton text="Fashion" />
                         <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        <TagButton text="Style" />
+                        <TagButton text="Marketplace" />
+                        <TagButton text="Sustainable" />
                       </div>
                     </div>
                     <div className="mb-5">

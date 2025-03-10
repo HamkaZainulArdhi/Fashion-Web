@@ -153,9 +153,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 data-aos-delay="1200"
               >
                 <a
-                  href="cek.id"
                   className="inline-flex items-center gap-2 px-4 py-2 sm:px-6 sm:py-3 rounded-full relative group hover:scale-105 transition-transform duration-300"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-600/20 rounded-full blur-md group-hover:blur-lg transition-all duration-300" />
