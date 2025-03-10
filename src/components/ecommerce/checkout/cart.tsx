@@ -107,11 +107,11 @@ const ShoppingCart: React.FC = () => {
   
   return (
     <div className=" py-24">
-      <div className="max-w-6xl border-2 border-blue-400 mx-auto">
-        <h1 className="text-3xl border-2 border-blue-100 pl-2 font-bold mb-1">Checkout Belanjamu</h1>
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-3xl pl-2 font-bold mb-1">Checkout Belanjamu</h1>
         <p className="text-gray-600 pl-2 mb-8">{cartItems.reduce((total, item) => total + item.quantity, 0)} items di Keranjangmu.</p>
         
-        <div className="flex flex-col border-2 border-red-400 lg:flex-row gap-6">
+        <div className="flex flex-col lg:flex-row gap-6">
           {/* Left side - Cart items */}
           <div className="lg:w-2/3 bg-white rounded-lg shadow-md h-1/3 p-6">
             <h2 className="sr-only">Product List</h2>

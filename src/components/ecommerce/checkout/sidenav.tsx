@@ -62,7 +62,7 @@ export const SideNav: React.FC<SideNavProps> = ({ cartSubtotal, discount }) => {
           </div>
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-3">
           <div className="flex-1 relative">
             <select
               className="w-full p-2 border rounded bg-gray-50 appearance-none pr-8"
@@ -93,7 +93,7 @@ export const SideNav: React.FC<SideNavProps> = ({ cartSubtotal, discount }) => {
           <input
             type="text"
             placeholder="Kode Pos"
-            className="flex-1 p-2 border-2 rounded bg-white"
+            className="flex max-w-sm p-1 border-2 rounded bg-white"
             value={KodePos}
             onChange={(e) => setKodePos(e.target.value)}
           />
