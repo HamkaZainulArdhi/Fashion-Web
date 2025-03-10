@@ -1,5 +1,6 @@
 "use client";
 "use client";
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
@@ -32,7 +33,7 @@ const DonationCampaign: React.FC = () => {
       {/* Main Content */}
       <main className="flex-1 flex flex-col w-full md:mt-20">
         <div className="max-w-5xl mx-auto">
-          <img src="/images/detaildonasi/2.jpg" alt="Hero Banner" className="rounded-xl shadow-lg" />
+          <Image src="/images/detaildonasi/2.jpg" alt="Hero Banner" className="rounded-xl shadow-lg" />
         </div>
 
         <div className="max-w-6xl mx-auto w-full px-4">

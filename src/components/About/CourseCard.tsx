@@ -1,6 +1,7 @@
 import React from 'react';
 import { Video, Users, Star } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface CourseCardProps {
   course: {
@@ -20,7 +21,7 @@ const CourseCard = ({ course }: CourseCardProps) => {
     <div className="bg-blue-100 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200 group h-[350px] relative">
       <div className="absolute inset-0 transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1/2">
         <div className="h-56 relative overflow-hidden">
-          <img 
+          <Image 
             src={course.image} 
             alt={course.title} 
             className="w-full h-full object-cover"

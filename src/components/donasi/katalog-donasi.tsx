@@ -1,6 +1,7 @@
 import React from 'react';
 import { Clock, Tag, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface DonationCardProps {
   title: string;
@@ -29,7 +30,7 @@ const DonationCard: React.FC<DonationCardProps> = ({
       <div className="relative">
         <Link href="/donasi-detail" className="block">
           <div className="h-48 bg-gray-200 relative">
-            <img 
+            <Image 
               src={imageUrl} 
               alt="foto" 
               className="w-full h-full object-cover"

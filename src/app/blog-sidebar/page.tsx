@@ -144,7 +144,7 @@ const BlogSidebarPage = () => {
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                    "Sustainable fashion bukan hanya tentang pakaian, tetapi juga tentang masa depan yang lebih hijau dan berkelanjutan. Dengan memilih fashion yang bertanggung jawab, kita bisa mengubah industri ini menjadi lebih ramah lingkungan."
+                    Sustainable fashion bukan hanya tentang pakaian, tetapi juga tentang masa depan yang lebih hijau dan berkelanjutan. Dengan memilih fashion yang bertanggung jawab, kita bisa mengubah industri ini menjadi lebih ramah lingkungan.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
