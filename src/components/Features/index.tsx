@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { CheckCircle } from 'lucide-react';
 import { Covertext } from '../aceternity/cover';
 import { Glare } from '../aceternity/glare-card';
-
+import Link from 'next/link';
 
 
 const SustainaStyleInteractive = () => {
@@ -16,6 +16,7 @@ const SustainaStyleInteractive = () => {
       description: "Permudah para desainer fashion untuk mengakses materi belajar, mengembangkan keterampilan, hingga mendapatkan peluang seperti:",
      features: ["Zero-Waste", "Bahan Organik", "Brand Sustainable", "Kolaborasi"],
       buttonText: "Kunjungi",
+      buttonLink: "/", 
       imageSrc: "images/hero/beranda.png"
     },
     marketplace: {
@@ -23,6 +24,7 @@ const SustainaStyleInteractive = () => {
       description: "Jual dan beli produk sustainable fashion dari berbagai brand lokal yang ramah lingkungan:",
       features: ["Pakaian", "Aksesoris", "Eco-friendly", "Handmade"],
       buttonText: "Belanja Sekarang",
+      buttonLink: "/ecommerce", 
       imageSrc: "images/hero/sustainshop.png"
     },
     tukarPakaian: {
@@ -30,14 +32,16 @@ const SustainaStyleInteractive = () => {
       description: "Tukarkan pakaian bekas yang masih layak pakai untuk mengurangi limbah tekstil:",
       features: ["Tukar Tambah", "Donasi", "Daur Ulang", "Kredit Poin"],
       buttonText: "Mulai Tukar",
+      buttonLink: "/tukar", 
       imageSrc: "images/hero/sustainswap.png"
     },
     challengeReward: {
       title: <><span className="text-teal-500">Challenge & Reward</span><br />Program Sustainability.</>,
       description: "Ikuti tantangan sustainability dan dapatkan reward menarik setiap bulannya:",
       features: ["Zero Waste", "Sustainable Living", "Eco Challenge", "Community Rewards"],
-      buttonText: "Ikuti Challenge",
-      imageSrc: "public/images/hero/image.png"
+      buttonText: "Ayo Donasi",
+      buttonLink: "/donasi", 
+      imageSrc: "images/hero/sustaincare.png"
     }
   };
 
@@ -107,9 +111,11 @@ const SustainaStyleInteractive = () => {
           </div>
           
           <div className="flex">
+           <Link href={currentContent.buttonLink}>
             <button className="bg-black text-white px-6 py-2 rounded-md font-medium">
               {currentContent.buttonText}
             </button>
+          </Link>
           </div>
         </div>
       </div>
